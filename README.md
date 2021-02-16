@@ -1,4 +1,4 @@
-#QuickChemistry, my homework chemistry helper
+# QuickChemistry, my homework chemistry helper
 
 ### Table of content
 
