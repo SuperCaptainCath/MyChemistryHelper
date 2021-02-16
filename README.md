@@ -1,3 +1,5 @@
+#QuickChemistry, my homework chemistry helper
+
 ### Table of content
 
 [1. Introduction](#1-introduction)
