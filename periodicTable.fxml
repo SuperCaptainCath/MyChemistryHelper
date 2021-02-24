@@ -12,8 +12,12 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
+<<<<<<< Updated upstream
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="1080.0" minWidth="1920.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+=======
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="1080.0" minWidth="1920.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: 026670;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
+>>>>>>> Stashed changes
    <children>
       <AnchorPane layoutX="124.0" layoutY="44.0">
          <children>
@@ -345,21 +349,1532 @@
                   <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" width="76.0" GridPane.columnIndex="14" GridPane.rowIndex="10" />
                   <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" width="76.0" GridPane.columnIndex="15" GridPane.rowIndex="10" />
                   <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" width="76.0" GridPane.columnIndex="16" GridPane.rowIndex="10" />
+<<<<<<< Updated upstream
+=======
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Na" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="K" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rb" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cs" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fr" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Be" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mg" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ca" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sr" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ba" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ra" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sc" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Y" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="57-71" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="23.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="89-103" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ti" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Zr" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Hf" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rf" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="V" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nb" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ta" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Db" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cr" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mo" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="W" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sg" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mn" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tc" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Re" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Bh" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fe" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ru" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Os" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Hs" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Co" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rh" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ir" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mt" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ni" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pd" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pt" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ds" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cu" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ag" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Au" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rg" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Zn" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cd" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Hg" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cn" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="B" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Al" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ga" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="In" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ti" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nh" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="C" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Si" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ge" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sn" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pb" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fl" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="N" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="P" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="As" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sb" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Bi" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Mc" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="O" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="S" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Se" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Te" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Po" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lv" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="F" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cl" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Br" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="I" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="At" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ts" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="He" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ne" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ar" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Kr" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Xe" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Rn" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Og" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="La" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ac" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ce" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Th" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pr" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pa" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nd" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="U" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pm" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Np" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Sm" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Pu" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Eu" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Am" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Gd" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cm" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tb" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Bk" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Dy" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cf" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Ho" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Es" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Er" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Fm" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Tm" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Md" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Yb" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lu" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="No" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lr" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                     <font>
+                        <Font size="40.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets bottom="12.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="11" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="4" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="12" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="19" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="37" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="55" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="87" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="20" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="21" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="22" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="23" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="24" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="25" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="26" GridPane.columnIndex="8" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="27" GridPane.columnIndex="9" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="28" GridPane.columnIndex="10" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="29" GridPane.columnIndex="11" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="30" GridPane.columnIndex="12" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="31" GridPane.columnIndex="13" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="32" GridPane.columnIndex="14" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="33" GridPane.columnIndex="15" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="34" GridPane.columnIndex="16" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="35" GridPane.columnIndex="17" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="36" GridPane.columnIndex="18" GridPane.rowIndex="4">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="38" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="39" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="40" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="41" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="42" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="43" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="44" GridPane.columnIndex="8" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="45" GridPane.columnIndex="9" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="46" GridPane.columnIndex="10" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="47" GridPane.columnIndex="11" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="48" GridPane.columnIndex="12" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="49" GridPane.columnIndex="13" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="50" GridPane.columnIndex="14" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="51" GridPane.columnIndex="15" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="52" GridPane.columnIndex="16" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="53" GridPane.columnIndex="17" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="54" GridPane.columnIndex="18" GridPane.rowIndex="5">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="5" GridPane.columnIndex="13" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="2" GridPane.columnIndex="18" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="6" GridPane.columnIndex="14" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="7" GridPane.columnIndex="15" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="8" GridPane.columnIndex="16" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="9" GridPane.columnIndex="17" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="10" GridPane.columnIndex="18" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="13" GridPane.columnIndex="13" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="14" GridPane.columnIndex="14" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="15" GridPane.columnIndex="15" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="16" GridPane.columnIndex="16" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="17" GridPane.columnIndex="17" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="18" GridPane.columnIndex="18" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="56" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="88" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="72" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="73" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="74" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="75" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="76" GridPane.columnIndex="8" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="77" GridPane.columnIndex="9" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="78" GridPane.columnIndex="10" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="79" GridPane.columnIndex="11" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="80" GridPane.columnIndex="12" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="81" GridPane.columnIndex="13" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="82" GridPane.columnIndex="14" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="83" GridPane.columnIndex="15" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="84" GridPane.columnIndex="16" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="85" GridPane.columnIndex="17" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="86" GridPane.columnIndex="18" GridPane.rowIndex="6">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="104" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="105" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="106" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="107" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="108" GridPane.columnIndex="8" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="109" GridPane.columnIndex="9" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="110" GridPane.columnIndex="10" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="111" GridPane.columnIndex="11" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="112" GridPane.columnIndex="12" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="113" GridPane.columnIndex="13" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="114" GridPane.columnIndex="14" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="115" GridPane.columnIndex="15" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="116" GridPane.columnIndex="16" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="117" GridPane.columnIndex="17" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="118" GridPane.columnIndex="18" GridPane.rowIndex="7">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="57" GridPane.columnIndex="4" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="58" GridPane.columnIndex="5" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="59" GridPane.columnIndex="6" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="60" GridPane.columnIndex="7" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="61" GridPane.columnIndex="8" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="62" GridPane.columnIndex="9" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="63" GridPane.columnIndex="10" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="64" GridPane.columnIndex="11" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="65" GridPane.columnIndex="12" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="66" GridPane.columnIndex="13" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="67" GridPane.columnIndex="14" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="68" GridPane.columnIndex="15" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="69" GridPane.columnIndex="16" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="70" GridPane.columnIndex="17" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="71" GridPane.columnIndex="18" GridPane.rowIndex="9">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="89" GridPane.columnIndex="4" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="90" GridPane.columnIndex="5" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="91" GridPane.columnIndex="6" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="92" GridPane.columnIndex="7" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="93" GridPane.columnIndex="8" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="94" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="95" GridPane.columnIndex="10" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="96" GridPane.columnIndex="11" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="97" GridPane.columnIndex="12" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="98" GridPane.columnIndex="13" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="99" GridPane.columnIndex="14" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="100" GridPane.columnIndex="15" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="101" GridPane.columnIndex="16" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="102" GridPane.columnIndex="17" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="103" GridPane.columnIndex="18" GridPane.rowIndex="10">
+                     <font>
+                        <Font size="20.0" />
+                     </font>
+                  </TextField>
+>>>>>>> Stashed changes
                </children>
             </GridPane>
          </children>
       </AnchorPane>
-      <TextField alignment="TOP_CENTER" editable="false" layoutX="38.0" layoutY="303.0" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="3">
-         <font>
-            <Font size="20.0" />
-         </font>
-      </TextField>
       <Rectangle arcHeight="60.0" arcWidth="60.0" fill="WHITE" height="278.0" layoutX="396.0" layoutY="58.0" stroke="BLACK" strokeType="INSIDE" width="811.0" />
-      <Text layoutX="58.0" layoutY="162.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Li" textAlignment="CENTER">
-         <font>
-            <Font size="40.0" />
-         </font>
-      </Text>
       <HBox alignment="CENTER" layoutX="394.0" layoutY="59.0" prefHeight="273.0" prefWidth="821.0">
          <children>
             <Text accessibleRole="TEXT_AREA" strokeType="OUTSIDE" strokeWidth="0.0" text="H" textAlignment="CENTER" wrappingWidth="148.4375">
