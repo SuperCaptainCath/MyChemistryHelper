@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import java.lang.String?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.AnchorPane?>
@@ -8,18 +9,14 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<<<<<<< Updated upstream
-
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="1080.0" minWidth="1920.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
-=======
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="1080.0" minWidth="1920.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: 026670;" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
->>>>>>> Stashed changes
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="1080.0" minWidth="1920.0" prefHeight="400.0" prefWidth="600.0" styleClass="intPT" stylesheets="@../../../Desktop/caspian.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <AnchorPane layoutX="124.0" layoutY="44.0">
+      <AnchorPane layoutX="124.0" layoutY="44.0" styleClass="intPT">
          <children>
             <GridPane alignment="CENTER" prefHeight="994.0" prefWidth="1621.0">
               <columnConstraints>
@@ -203,11 +200,14 @@
                         <Insets right="15.0" />
                      </GridPane.margin>
                   </Text>
-                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" width="76.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="nonmetal" width="76.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="1" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="H" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <font>
@@ -217,11 +217,14 @@
                         <Insets bottom="12.0" />
                      </GridPane.margin>
                   </Text>
-                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" width="76.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="alkalimetal" width="76.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="3" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Li" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <font>
@@ -231,6 +234,131 @@
                         <Insets bottom="12.0" />
                      </GridPane.margin>
                   </Text>
+<<<<<<< Updated upstream
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="alkalimetal" width="76.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="alkalimetal" width="76.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="alkalimetal" width="76.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="alkalimetal" width="76.0" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="alkalimetal" width="76.0" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="alkalineearth" width="76.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="alkalineearth" width="76.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="alkalineearth" width="76.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="alkalineearth" width="76.0" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="alkalineearth" width="76.0" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="alkalineearth" width="76.0" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="lanthanide" width="76.0" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="76.0" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="10" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="10" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="10" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="11" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="11" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="11" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="11" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="12" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="12" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="12" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="76.0" GridPane.columnIndex="12" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="basicmetal" width="76.0" GridPane.columnIndex="13" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="basicmetal" width="76.0" GridPane.columnIndex="13" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="basicmetal" width="76.0" GridPane.columnIndex="13" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="basicmetal" width="76.0" GridPane.columnIndex="13" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="metalloid" width="76.0" GridPane.columnIndex="14" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="basicmetal" width="76.0" GridPane.columnIndex="14" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="basicmetal" width="76.0" GridPane.columnIndex="14" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="basicmetal" width="76.0" GridPane.columnIndex="14" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="metalloid" width="76.0" GridPane.columnIndex="15" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="metalloid" width="76.0" GridPane.columnIndex="15" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="basicmetal" width="76.0" GridPane.columnIndex="15" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="basicmetal" width="76.0" GridPane.columnIndex="15" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="nonmetal" width="76.0" GridPane.columnIndex="16" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="metalloid" width="76.0" GridPane.columnIndex="16" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="metalloid" width="76.0" GridPane.columnIndex="16" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="basicmetal" width="76.0" GridPane.columnIndex="16" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="halogen" width="76.0" GridPane.columnIndex="17" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="halogen" width="76.0" GridPane.columnIndex="17" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="halogen" width="76.0" GridPane.columnIndex="17" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="halogen" width="76.0" GridPane.columnIndex="17" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" width="76.0" GridPane.columnIndex="18" GridPane.rowIndex="1">
+                     <styleClass>
+                        <String fx:value="nobleGas" />
+                        <String fx:value="intPt" />
+                     </styleClass></Rectangle>
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="nobleGas" width="76.0" GridPane.columnIndex="18" GridPane.rowIndex="2" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="nobleGas" width="76.0" GridPane.columnIndex="18" GridPane.rowIndex="3" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="nobleGas" width="76.0" GridPane.columnIndex="18" GridPane.rowIndex="4" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="nobleGas" width="76.0" GridPane.columnIndex="18" GridPane.rowIndex="5" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="nobleGas" width="76.0" GridPane.columnIndex="18" GridPane.rowIndex="6" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="nobleGas" width="76.0" GridPane.columnIndex="18" GridPane.rowIndex="7" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="halogen" width="76.0" GridPane.columnIndex="17" GridPane.rowIndex="2" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="nonmetal" width="76.0" GridPane.columnIndex="16" GridPane.rowIndex="2" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="nonmetal" width="76.0" GridPane.columnIndex="15" GridPane.rowIndex="2" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="nonmetal" width="76.0" GridPane.columnIndex="14" GridPane.rowIndex="2" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="metalloid" width="76.0" GridPane.columnIndex="13" GridPane.rowIndex="2" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="basicmetal" width="76.0" GridPane.columnIndex="13" GridPane.rowIndex="3" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="metalloid" width="76.0" GridPane.columnIndex="14" GridPane.rowIndex="3" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="nonmetal" width="76.0" GridPane.columnIndex="15" GridPane.rowIndex="3" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="nonmetal" width="76.0" GridPane.columnIndex="16" GridPane.rowIndex="3" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="halogen" width="76.0" GridPane.columnIndex="17" GridPane.rowIndex="3" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="lanthanide" width="76.0" GridPane.columnIndex="18" GridPane.rowIndex="9" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="76.0" GridPane.columnIndex="18" GridPane.rowIndex="10" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="lanthanide" width="76.0" GridPane.columnIndex="17" GridPane.rowIndex="9" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="76.0" GridPane.columnIndex="17" GridPane.rowIndex="10" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="lanthanide" width="76.0" GridPane.columnIndex="16" GridPane.rowIndex="9" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="lanthanide" width="76.0" GridPane.columnIndex="15" GridPane.rowIndex="9" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="lanthanide" width="76.0" GridPane.columnIndex="14" GridPane.rowIndex="9" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="lanthanide" width="76.0" GridPane.columnIndex="13" GridPane.rowIndex="9" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="lanthanide" width="76.0" GridPane.columnIndex="12" GridPane.rowIndex="9" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="lanthanide" width="76.0" GridPane.columnIndex="11" GridPane.rowIndex="9" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="lanthanide" width="76.0" GridPane.columnIndex="10" GridPane.rowIndex="9" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="lanthanide" width="76.0" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="lanthanide" width="76.0" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="lanthanide" width="76.0" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="lanthanide" width="76.0" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="lanthanide" width="76.0" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="lanthanide" width="76.0" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="76.0" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="76.0" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="76.0" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="76.0" GridPane.columnIndex="7" GridPane.rowIndex="10" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="76.0" GridPane.columnIndex="8" GridPane.rowIndex="10" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="76.0" GridPane.columnIndex="9" GridPane.rowIndex="10" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="76.0" GridPane.columnIndex="10" GridPane.rowIndex="10" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="76.0" GridPane.columnIndex="11" GridPane.rowIndex="10" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="76.0" GridPane.columnIndex="12" GridPane.rowIndex="10" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="76.0" GridPane.columnIndex="13" GridPane.rowIndex="10" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="76.0" GridPane.columnIndex="14" GridPane.rowIndex="10" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="76.0" GridPane.columnIndex="15" GridPane.rowIndex="10" />
+                  <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="76.0" GridPane.columnIndex="16" GridPane.rowIndex="10" />
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Na" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+=======
                   <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" width="76.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
                   <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" width="76.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
                   <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" width="76.0" GridPane.columnIndex="1" GridPane.rowIndex="5" />
@@ -349,9 +477,25 @@
                   <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" width="76.0" GridPane.columnIndex="14" GridPane.rowIndex="10" />
                   <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" width="76.0" GridPane.columnIndex="15" GridPane.rowIndex="10" />
                   <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="78.0" stroke="BLACK" strokeType="INSIDE" width="76.0" GridPane.columnIndex="16" GridPane.rowIndex="10" />
-<<<<<<< Updated upstream
-=======
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Na" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+               </children>
+            </GridPane>
+         </children>
+      </AnchorPane>
+      <Rectangle arcHeight="60.0" arcWidth="60.0" fill="WHITE" height="278.0" layoutX="399.0" layoutY="58.0" stroke="BLACK" strokeType="INSIDE" width="808.0" />
+      <HBox alignment="CENTER" layoutX="394.0" layoutY="59.0" prefHeight="273.0" prefWidth="821.0">
+         <children>
+            <Text accessibleRole="TEXT_AREA" strokeType="OUTSIDE" strokeWidth="0.0" text="H" textAlignment="CENTER" wrappingWidth="148.4375">
+               <font>
+                  <Font size="200.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="30.0" />
+               </HBox.margin>
+            </Text>
+            <VBox prefHeight="273.0" prefWidth="605.0">
+               <children>
+                  <Text accessibleRole="TEXT_AREA" strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-text-fill: 767676;" text="Name" textAlignment="RIGHT" wrappingWidth="280.79559326171875">
+>>>>>>> Stashed changes
                      <font>
                         <Font size="40.0" />
                      </font>
@@ -391,7 +535,15 @@
                         <Insets bottom="12.0" />
                      </GridPane.margin>
                   </Text>
+<<<<<<< Updated upstream
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Be" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+=======
+               </children>
+            </VBox>
+            <VBox prefHeight="273.0" prefWidth="286.0">
+               <children>
+                  <Text accessibleRole="TEXT_AREA" strokeType="OUTSIDE" strokeWidth="0.0" text="Hydrogen" wrappingWidth="280.79559326171875">
+>>>>>>> Stashed changes
                      <font>
                         <Font size="40.0" />
                      </font>
@@ -1293,583 +1445,933 @@
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="4" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="12" GridPane.columnIndex="2" GridPane.rowIndex="3">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="19" GridPane.columnIndex="1" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="37" GridPane.columnIndex="1" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="55" GridPane.columnIndex="1" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="87" GridPane.columnIndex="1" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="20" GridPane.columnIndex="2" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="21" GridPane.columnIndex="3" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="22" GridPane.columnIndex="4" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="23" GridPane.columnIndex="5" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="24" GridPane.columnIndex="6" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="25" GridPane.columnIndex="7" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="26" GridPane.columnIndex="8" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="27" GridPane.columnIndex="9" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="28" GridPane.columnIndex="10" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="29" GridPane.columnIndex="11" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="30" GridPane.columnIndex="12" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="31" GridPane.columnIndex="13" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="32" GridPane.columnIndex="14" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="33" GridPane.columnIndex="15" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="34" GridPane.columnIndex="16" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="35" GridPane.columnIndex="17" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="36" GridPane.columnIndex="18" GridPane.rowIndex="4">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="38" GridPane.columnIndex="2" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="39" GridPane.columnIndex="3" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="40" GridPane.columnIndex="4" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="41" GridPane.columnIndex="5" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="42" GridPane.columnIndex="6" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="43" GridPane.columnIndex="7" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="44" GridPane.columnIndex="8" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="45" GridPane.columnIndex="9" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="46" GridPane.columnIndex="10" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="47" GridPane.columnIndex="11" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="48" GridPane.columnIndex="12" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="49" GridPane.columnIndex="13" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="50" GridPane.columnIndex="14" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="51" GridPane.columnIndex="15" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="52" GridPane.columnIndex="16" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="53" GridPane.columnIndex="17" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="54" GridPane.columnIndex="18" GridPane.rowIndex="5">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="5" GridPane.columnIndex="13" GridPane.rowIndex="2">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" styleClass="metalloid" text="5" GridPane.columnIndex="13" GridPane.rowIndex="2">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="2" GridPane.columnIndex="18" GridPane.rowIndex="1">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="6" GridPane.columnIndex="14" GridPane.rowIndex="2">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="7" GridPane.columnIndex="15" GridPane.rowIndex="2">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="8" GridPane.columnIndex="16" GridPane.rowIndex="2">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="9" GridPane.columnIndex="17" GridPane.rowIndex="2">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="10" GridPane.columnIndex="18" GridPane.rowIndex="2">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="13" GridPane.columnIndex="13" GridPane.rowIndex="3">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="14" GridPane.columnIndex="14" GridPane.rowIndex="3">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="15" GridPane.columnIndex="15" GridPane.rowIndex="3">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="16" GridPane.columnIndex="16" GridPane.rowIndex="3">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="17" GridPane.columnIndex="17" GridPane.rowIndex="3">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="18" GridPane.columnIndex="18" GridPane.rowIndex="3">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="56" GridPane.columnIndex="2" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="88" GridPane.columnIndex="2" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="72" GridPane.columnIndex="4" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="73" GridPane.columnIndex="5" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="74" GridPane.columnIndex="6" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="75" GridPane.columnIndex="7" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="76" GridPane.columnIndex="8" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="77" GridPane.columnIndex="9" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="78" GridPane.columnIndex="10" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="79" GridPane.columnIndex="11" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="80" GridPane.columnIndex="12" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="81" GridPane.columnIndex="13" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="82" GridPane.columnIndex="14" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="83" GridPane.columnIndex="15" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="84" GridPane.columnIndex="16" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="85" GridPane.columnIndex="17" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="86" GridPane.columnIndex="18" GridPane.rowIndex="6">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="104" GridPane.columnIndex="4" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="105" GridPane.columnIndex="5" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="106" GridPane.columnIndex="6" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="107" GridPane.columnIndex="7" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="108" GridPane.columnIndex="8" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="109" GridPane.columnIndex="9" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="110" GridPane.columnIndex="10" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="111" GridPane.columnIndex="11" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="112" GridPane.columnIndex="12" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="113" GridPane.columnIndex="13" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="114" GridPane.columnIndex="14" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="115" GridPane.columnIndex="15" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="116" GridPane.columnIndex="16" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="117" GridPane.columnIndex="17" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="118" GridPane.columnIndex="18" GridPane.rowIndex="7">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="57" GridPane.columnIndex="4" GridPane.rowIndex="9">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="58" GridPane.columnIndex="5" GridPane.rowIndex="9">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="59" GridPane.columnIndex="6" GridPane.rowIndex="9">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="60" GridPane.columnIndex="7" GridPane.rowIndex="9">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="61" GridPane.columnIndex="8" GridPane.rowIndex="9">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="62" GridPane.columnIndex="9" GridPane.rowIndex="9">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="63" GridPane.columnIndex="10" GridPane.rowIndex="9">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="64" GridPane.columnIndex="11" GridPane.rowIndex="9">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="65" GridPane.columnIndex="12" GridPane.rowIndex="9">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="66" GridPane.columnIndex="13" GridPane.rowIndex="9">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="67" GridPane.columnIndex="14" GridPane.rowIndex="9">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="68" GridPane.columnIndex="15" GridPane.rowIndex="9">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="69" GridPane.columnIndex="16" GridPane.rowIndex="9">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="70" GridPane.columnIndex="17" GridPane.rowIndex="9">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="71" GridPane.columnIndex="18" GridPane.rowIndex="9">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="89" GridPane.columnIndex="4" GridPane.rowIndex="10">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="90" GridPane.columnIndex="5" GridPane.rowIndex="10">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="91" GridPane.columnIndex="6" GridPane.rowIndex="10">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="92" GridPane.columnIndex="7" GridPane.rowIndex="10">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="93" GridPane.columnIndex="8" GridPane.rowIndex="10">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="94" GridPane.columnIndex="9" GridPane.rowIndex="10">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="95" GridPane.columnIndex="10" GridPane.rowIndex="10">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="96" GridPane.columnIndex="11" GridPane.rowIndex="10">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="97" GridPane.columnIndex="12" GridPane.rowIndex="10">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="98" GridPane.columnIndex="13" GridPane.rowIndex="10">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="99" GridPane.columnIndex="14" GridPane.rowIndex="10">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="100" GridPane.columnIndex="15" GridPane.rowIndex="10">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="101" GridPane.columnIndex="16" GridPane.rowIndex="10">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
                   <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="102" GridPane.columnIndex="17" GridPane.rowIndex="10">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="103" GridPane.columnIndex="18" GridPane.rowIndex="10">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000;" text="3" GridPane.columnIndex="18" GridPane.rowIndex="10">
                      <font>
                         <Font size="20.0" />
                      </font>
+                     <GridPane.margin>
+                        <Insets top="4.0" />
+                     </GridPane.margin>
                   </TextField>
->>>>>>> Stashed changes
                </children>
             </GridPane>
          </children>
@@ -1931,7 +2433,7 @@
             </VBox>
             <VBox prefHeight="273.0" prefWidth="605.0">
                <children>
-                  <Text accessibleRole="TEXT_AREA" strokeType="OUTSIDE" strokeWidth="0.0" text="Hydrogen" wrappingWidth="280.79559326171875">
+                  <Text accessibleRole="TEXT_AREA" strokeType="OUTSIDE" strokeWidth="0.0" text="..." wrappingWidth="280.79559326171875">
                      <font>
                         <Font size="35.0" />
                      </font>
@@ -1939,7 +2441,7 @@
                         <Insets left="15.0" top="12.0" />
                      </VBox.margin>
                   </Text>
-                  <Text accessibleRole="TEXT_AREA" strokeType="OUTSIDE" strokeWidth="0.0" text="1" wrappingWidth="282.71380615234375">
+                  <Text accessibleRole="TEXT_AREA" strokeType="OUTSIDE" strokeWidth="0.0" text="..." wrappingWidth="282.71380615234375">
                      <font>
                         <Font size="35.0" />
                      </font>
@@ -1947,7 +2449,7 @@
                         <Insets left="15.0" top="12.0" />
                      </VBox.margin>
                   </Text>
-                  <Text accessibleRole="TEXT_AREA" strokeType="OUTSIDE" strokeWidth="0.0" text="1.01" wrappingWidth="282.71380615234375">
+                  <Text accessibleRole="TEXT_AREA" strokeType="OUTSIDE" strokeWidth="0.0" text="..." wrappingWidth="282.71380615234375">
                      <font>
                         <Font size="35.0" />
                      </font>
@@ -1955,7 +2457,7 @@
                         <Insets left="15.0" top="12.0" />
                      </VBox.margin>
                   </Text>
-                  <Text accessibleRole="TEXT_AREA" strokeType="OUTSIDE" strokeWidth="0.0" text="13.81" wrappingWidth="282.71380615234375">
+                  <Text accessibleRole="TEXT_AREA" strokeType="OUTSIDE" strokeWidth="0.0" text="..." wrappingWidth="282.71380615234375">
                      <font>
                         <Font size="35.0" />
                      </font>
@@ -1963,7 +2465,7 @@
                         <Insets left="15.0" top="12.0" />
                      </VBox.margin>
                   </Text>
-                  <Text accessibleRole="TEXT_AREA" strokeType="OUTSIDE" strokeWidth="0.0" text="20.28" wrappingWidth="282.71380615234375">
+                  <Text accessibleRole="TEXT_AREA" strokeType="OUTSIDE" strokeWidth="0.0" text="..." wrappingWidth="282.71380615234375">
                      <font>
                         <Font size="35.0" />
                      </font>
@@ -1975,5 +2477,82 @@
             </VBox>
          </children>
       </HBox>
+      <GridPane layoutX="35.0" layoutY="850.0" prefHeight="167.0" prefWidth="339.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="170.7230224609375" minWidth="10.0" prefWidth="30.084537506103516" />
+          <ColumnConstraints hgrow="SOMETIMES" maxWidth="320.9154624938965" minWidth="10.0" prefWidth="185.6659164428711" />
+            <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" maxWidth="320.9154624938965" minWidth="10.0" prefWidth="41.914093017578125" />
+            <ColumnConstraints hgrow="SOMETIMES" maxWidth="320.9154624938965" minWidth="10.0" prefWidth="98.58590698242188" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Circle fill="DODGERBLUE" radius="8.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #FEF9C7;" styleClass="alkalimetal" GridPane.valignment="CENTER" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Alkali Metal" GridPane.columnIndex="1">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Circle fill="DODGERBLUE" radius="8.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #FEF9C7;" styleClass="alkalineearth" GridPane.rowIndex="1" GridPane.valignment="CENTER" />
+            <Circle fill="DODGERBLUE" radius="8.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #FEF9C7;" styleClass="transitionmetal" GridPane.rowIndex="2" />
+            <Circle fill="DODGERBLUE" radius="8.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #FEF9C7;" styleClass="basicmetal" GridPane.rowIndex="3" />
+            <Circle fill="DODGERBLUE" radius="8.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #FEF9C7;" styleClass="metalloid" GridPane.rowIndex="4" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Alkaline Earth" GridPane.columnIndex="1" GridPane.rowIndex="1">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Transition Metal" GridPane.columnIndex="1" GridPane.rowIndex="2">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Basic Metal" GridPane.columnIndex="1" GridPane.rowIndex="3">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Metalloid" GridPane.columnIndex="1" GridPane.rowIndex="4">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Circle fill="DODGERBLUE" radius="8.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #FEF9C7;" styleClass="nonmetal" GridPane.columnIndex="2" />
+            <Circle fill="DODGERBLUE" radius="8.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #FEF9C7;" styleClass="halogen" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Circle fill="DODGERBLUE" radius="8.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #FEF9C7;" styleClass="nobleGas" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Circle fill="DODGERBLUE" radius="8.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #FEF9C7;" styleClass="lanthanide" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Circle fill="DODGERBLUE" radius="8.0" stroke="BLACK" strokeType="INSIDE" style="-fx-fill: #FEF9C7;" styleClass="actinide" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Nonmetal" GridPane.columnIndex="3">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Halogen" GridPane.columnIndex="3" GridPane.rowIndex="1">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Noble Gas" GridPane.columnIndex="3" GridPane.rowIndex="2">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Lanthanide" GridPane.columnIndex="3" GridPane.rowIndex="3">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Actinide" wrappingWidth="91.89688110351562" GridPane.columnIndex="3" GridPane.rowIndex="4">
+               <font>
+                  <Font size="22.0" />
+               </font>
+            </Text>
+         </children>
+      </GridPane>
    </children>
 </AnchorPane>
