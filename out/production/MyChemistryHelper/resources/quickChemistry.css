@@ -2,72 +2,134 @@
 .nobleGas {
   -fx-arc-height: 15;
   -fx-arc-width: 15;
-  -fx-fill: white;
+  -fx-fill: transparent;
   -fx-stroke: #A24936;
-  -fx-stroke-width: 4;
+  -fx-stroke-width: 3;
 }
 .halogen {
   -fx-arc-height: 15;
   -fx-arc-width: 15;
-  -fx-fill: white;
+  -fx-fill: transparent;
   -fx-stroke: #48BEFF;
-  -fx-stroke-width: 4;
+  -fx-stroke-width: 3;
 }
 .nonmetal {
   -fx-arc-height: 15;
   -fx-arc-width: 15;
-  -fx-fill: white;
+  -fx-fill: transparent;
   -fx-stroke: #FB4D3D;
-  -fx-stroke-width: 4;
+  -fx-stroke-width: 3;
 }
 .metalloid {
   -fx-arc-height: 15;
   -fx-arc-width: 15;
-  -fx-fill: white;
+  -fx-fill: transparent;
   -fx-stroke: #09A129;
-  -fx-stroke-width: 4;
+  -fx-stroke-width: 3;
 }
 .basicmetal {
   -fx-arc-height: 15;
   -fx-arc-width: 15;
-  -fx-fill: white;
+  -fx-fill: transparent;
   -fx-stroke: #CB48B7;
-  -fx-stroke-width: 4;
+  -fx-stroke-width: 3;
 }
 .transitionmetal {
   -fx-arc-height: 15;
   -fx-arc-width: 15;
-  -fx-fill: white;
+  -fx-fill: transparent;
   -fx-stroke: #F18F01;
-  -fx-stroke-width: 4;
+  -fx-stroke-width: 3;
 }
 .alkalineearth {
   -fx-arc-height: 15;
   -fx-arc-width: 15;
-  -fx-fill: white;
+  -fx-fill: transparent;
   -fx-stroke: #8338EC;
-  -fx-stroke-width: 4;
+  -fx-stroke-width: 3;
 }
 .alkalimetal {
   -fx-arc-height: 15;
   -fx-arc-width: 15;
-  -fx-fill: white;
+  -fx-fill: transparent;
   -fx-stroke: #007EA7;
-  -fx-stroke-width: 4;
+  -fx-stroke-width: 3;
 }
 .lanthanide {
   -fx-arc-height: 15;
   -fk-arc-weight: 15;
-  -fx-fill: white;
+  -fx-fill: transparent;
   -fx-stroke: #FF006E;
-  -fx-stroke-width: 4;
+  -fx-stroke-width: 3;
 }
 .actinide {
   -fx-arc-height: 15;
   -fk-arc-weight: 15;
-  -fx-fill: white;
+  -fx-fill: transparent;
   -fx-stroke: #D36135;
-  -fx-stroke-width: 4;
+  -fx-stroke-width: 3;
+}
+.infoBox {
+  -fx-arc-height: 60;
+  -fk-arc-weight: 60;
+  -fx-stroke: #026670;
+  -fx-stroke-width: 3;
+  -fx-fill: #FEF9C7;
+}
+.infoText {
+  -fx-text-fill: #026670;
+}
+.toggleBack {
+  -fx-arc-height: 15;
+  -fk-arc-weight: 15;
+  -fx-fill: white;
+}
+/*******************************************************************************
+ *                                                                             *
+ * ToggleButton                                                                *
+ *                                                                             *
+ ******************************************************************************/
+
+.toggle-button {
+    -fx-background-color: transparent;
+    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
+    -fx-background-radius: 5, 5, 4, 3;
+    -fx-padding: 0.166667em 0.833333em 0.25em 0.833333em; /* 2 10 3 10 */
+    -fx-text-fill: -fx-text-base-color;
+    -fx-alignment: CENTER;
+    -fx-content-display: LEFT;
+}
+
+.toggle-button:focused {
+    -fx-color: #FEF9C7;
+    -fx-background-color: #FEF9C7;
+    /*-fx-background-insets: -1.4, 0, 1, 2;
+    -fx-background-radius: 6.4, 5, 4, 3;*/
+}
+
+.toggle-button:hover {
+    -fx-color: #FEF9C7;
+}
+
+.toggle-button:armed {
+    -fx-color: -fx-pressed-base;
+}
+
+.toggle-button:selected {
+    -fx-background-color: #FEF9C7;
+}
+
+.toggle-button:selected:focused {
+    -fx-color: #FEF9C7
+    -fx-background-color: #FEF9C7
+}
+
+.toggle-button:disabled {
+    -fx-opacity: -fx-disabled-opacity;
+}
+
+.toggle-button:show-mnemonics > .mnemonic-underline {
+    -fx-stroke: -fx-text-fill;
 }
 
 
@@ -94,14 +156,14 @@
      * -fx-text-background-color, which should be used as the -fx-text-fill
      * value for text painted on top of backgrounds colored with -fx-background.
      */
-    -fx-background: #FEF9C7; /*pastel yellow*/
+    -fx-background: white; /*pastel yellow*/
 
     /* Used for the inside of text boxes, password boxes, lists, trees, and
      * tables.  See also -fx-text-inner-color, which should be used as the
      * -fx-text-fill value for text painted on top of backgrounds colored
      * with -fx-control-inner-background.
      */
-    -fx-control-inner-background: #EDEAE5;
+    -fx-background-color: transparent;
 
     /* One of these colors will be chosen based upon a ladder calculation
      * that uses the brightness of a background color.  Instead of using these
@@ -121,7 +183,7 @@
      * text; selected items in menus, lists, trees, and tables; progress bars;
      * default buttons.
      */
-    -fx-accent: #FCE181;
+    -fx-accent: transparent;
 
     /* A bright blue for the focus indicator of objects. Typically used as the
      * first color in -fx-background-color for the "focused" pseudo-class. Also
@@ -129,7 +191,7 @@
      *
      * TODO: should this be derived from -fx-accent?
      */
-    -fx-focus-color: #FCE181;
+    -fx-focus-color: red;
 
     /* The color that is used in styling controls. The default value is based
      * on -fx-base, but is changed by pseudoclasses to change the base color.
@@ -576,65 +638,6 @@
 }
 
 .button:show-mnemonics > .mnemonic-underline {
-    -fx-stroke: -fx-text-fill;
-}
-/*******************************************************************************
- *                                                                             *
- * ToggleButton                                                                *
- *                                                                             *
- ******************************************************************************/
-
-.toggle-button {
-    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
-    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
-    -fx-background-radius: 5, 5, 4, 3;
-    -fx-padding: 0.166667em 0.833333em 0.25em 0.833333em; /* 2 10 3 10 */
-    -fx-text-fill: -fx-text-base-color;
-    -fx-alignment: CENTER;
-    -fx-content-display: LEFT;
-}
-
-.toggle-button:focused {
-    -fx-color: -fx-focused-base;
-    -fx-background-color: -fx-focus-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
-    -fx-background-insets: -1.4, 0, 1, 2;
-    -fx-background-radius: 6.4, 5, 4, 3;
-}
-
-.toggle-button:hover {
-    -fx-color: -fx-hover-base;
-}
-
-.toggle-button:armed {
-    -fx-color: -fx-pressed-base;
-}
-
-.toggle-button:selected {
-    -fx-background-color:
-        -fx-shadow-highlight-color,
-        linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),
-        linear-gradient(to bottom, derive(-fx-color,-60%) 0%, derive(-fx-color,-35%) 50%, derive(-fx-color,-30%) 98%, derive(-fx-color,-50%) 100%),
-        linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);
-    -fx-background-insets: 0 0 -1 0, 0, 1, 1;
-    /* TODO: -fx-text-fill should be derived */
-    -fx-text-fill: -fx-light-text-color;
-}
-
-.toggle-button:selected:focused {
-    -fx-color: -fx-focused-base;
-    -fx-background-color:
-        -fx-focus-color,
-        linear-gradient(to bottom, derive(-fx-color,-90%) 0%, derive(-fx-color,-60%) 100%),
-        linear-gradient(to bottom, derive(-fx-color,-60%) 0%, derive(-fx-color,-35%) 50%, derive(-fx-color,-30%) 98%, derive(-fx-color,-50%) 100%),
-        linear-gradient(to right, rgba(0,0,0,0.3) 0%, rgba(0,0,0,0) 10%, rgba(0,0,0,0) 90%, rgba(0,0,0,0.3) 100%);
-    -fx-background-insets: -1.4, 0, 1, 1;
-}
-
-.toggle-button:disabled {
-    -fx-opacity: -fx-disabled-opacity;
-}
-
-.toggle-button:show-mnemonics > .mnemonic-underline {
     -fx-stroke: -fx-text-fill;
 }
 
@@ -1397,7 +1400,7 @@
 
 .text-input:focused {
     -fx-highlight-fill: -fx-accent;
-    -fx-highlight-text-fill: white;
+    -fx-highlight-text-fill: black; /*COLOR WAS CHANGED FROM WHITE TO BLACK*/
 }
 
 /*******************************************************************************
