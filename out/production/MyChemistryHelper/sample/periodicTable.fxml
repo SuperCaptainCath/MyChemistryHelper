@@ -57,23 +57,129 @@
                 <RowConstraints maxHeight="60.0" minHeight="55.0" prefHeight="60.0" valignment="CENTER" vgrow="SOMETIMES" />
               </rowConstraints>
                <children>
-                  <ToggleButton fx:id="b7" mnemonicParsing="false" prefHeight="55.0" prefWidth="55.0" styleClass="toggleBack" GridPane.columnIndex="15" GridPane.rowIndex="2">
+                  <ToggleButton fx:id="b118" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" selected="true" styleClass="toggleBack" GridPane.columnIndex="18" GridPane.rowIndex="7">
                      <toggleGroup>
                         <ToggleGroup fx:id="element" />
                      </toggleGroup>
                   </ToggleButton>
-                  <ToggleButton fx:id="b6" mnemonicParsing="false" prefHeight="55.0" prefWidth="55.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="14" GridPane.rowIndex="2" />
-                  <ToggleButton fx:id="b5" mnemonicParsing="false" prefHeight="55.0" prefWidth="55.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="13" GridPane.rowIndex="2" />
-                  <ToggleButton fx:id="b4" mnemonicParsing="false" prefHeight="55.0" prefWidth="55.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="2" GridPane.rowIndex="2" />
-                  <ToggleButton fx:id="b3" mnemonicParsing="false" prefHeight="55.0" prefWidth="55.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="1" GridPane.rowIndex="2" />
-                  <ToggleButton fx:id="b2" mnemonicParsing="false" prefHeight="55.0" prefWidth="55.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="18" GridPane.rowIndex="1" />
-                  <Rectangle fx:id="buttonBe4" arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="55.0" onMouseClicked="#clickedBe4" stroke="BLACK" strokeType="INSIDE" styleClass="alkalineearth" width="55.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
-                     <GridPane.margin>
-                        <Insets />
-                     </GridPane.margin>
-                     <cursor>
-                        <Cursor fx:constant="HAND" />
-                     </cursor></Rectangle>
+                  <ToggleButton fx:id="b118" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="18" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b117" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="17" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b116" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="16" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b115" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="15" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b114" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="14" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b113" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="13" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b112" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="12" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b111" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="11" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b110" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="10" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b109" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b108" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b107" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b106" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b105" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b104" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b103" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="18" GridPane.rowIndex="10" />
+                  <ToggleButton fx:id="b102" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="17" GridPane.rowIndex="10" />
+                  <ToggleButton fx:id="b101" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="16" GridPane.rowIndex="10" />
+                  <ToggleButton fx:id="b100" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="15" GridPane.rowIndex="10" />
+                  <ToggleButton fx:id="b99" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="14" GridPane.rowIndex="10" />
+                  <ToggleButton fx:id="b98" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="13" GridPane.rowIndex="10" />
+                  <ToggleButton fx:id="b97" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="12" GridPane.rowIndex="10" />
+                  <ToggleButton fx:id="b96" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="11" GridPane.rowIndex="10" />
+                  <ToggleButton fx:id="b95" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="10" GridPane.rowIndex="10" />
+                  <ToggleButton fx:id="b94" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="9" GridPane.rowIndex="10" />
+                  <ToggleButton fx:id="b93" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="8" GridPane.rowIndex="10" />
+                  <ToggleButton fx:id="b92" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="7" GridPane.rowIndex="10" />
+                  <ToggleButton fx:id="b91" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+                  <ToggleButton fx:id="b90" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+                  <ToggleButton fx:id="b89" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+                  <ToggleButton fx:id="b88" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b87" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+                  <ToggleButton fx:id="b86" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="18" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b85" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="17" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b84" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="16" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b83" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="15" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b82" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="14" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b81" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="13" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b80" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="12" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b79" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="11" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b78" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="10" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b77" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b76" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b75" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b74" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b73" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b72" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b71" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="18" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="b70" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="17" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="b69" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="16" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="b68" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="15" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="b67" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="14" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="b66" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="13" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="b65" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="12" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="b64" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="11" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="b63" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="10" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="b62" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="b61" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="b60" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="b59" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="b58" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="b57" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+                  <ToggleButton fx:id="b56" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b55" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <ToggleButton fx:id="b54" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="18" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b53" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="17" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b52" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="16" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b51" layoutX="833.0" layoutY="95.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="15" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b50" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="14" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b49" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="13" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b48" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="12" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b47" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="11" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b46" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="10" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b45" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b44" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b43" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b42" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b41" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b40" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b39" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b38" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b37" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <ToggleButton fx:id="b36" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="18" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b35" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="17" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b34" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="16" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b33" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="15" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b32" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="14" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b31" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="13" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b30" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="12" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b29" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="11" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b28" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b27" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b26" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b25" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b24" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b23" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b22" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b21" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b20" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b19" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <ToggleButton fx:id="b18" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="18" GridPane.rowIndex="3" />
+                  <ToggleButton fx:id="b17" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="17" GridPane.rowIndex="3" />
+                  <ToggleButton fx:id="b16" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="16" GridPane.rowIndex="3" />
+                  <ToggleButton fx:id="b15" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="15" GridPane.rowIndex="3" />
+                  <ToggleButton fx:id="b14" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="14" GridPane.rowIndex="3" />
+                  <ToggleButton fx:id="b13" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="13" GridPane.rowIndex="3" />
+                  <ToggleButton fx:id="b12" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+                  <ToggleButton fx:id="b11" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <ToggleButton fx:id="b10" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="18" GridPane.rowIndex="2" />
+                  <ToggleButton fx:id="b9" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="17" GridPane.rowIndex="2" />
+                  <ToggleButton fx:id="b8" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="16" GridPane.rowIndex="2" />
+                  <ToggleButton fx:id="b7" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="15" GridPane.rowIndex="2" />
+                  <ToggleButton fx:id="b6" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="14" GridPane.rowIndex="2" />
+                  <ToggleButton fx:id="b5" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="13" GridPane.rowIndex="2" />
+                  <ToggleButton fx:id="b4" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+                  <ToggleButton fx:id="b3" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <ToggleButton fx:id="b2" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="18" GridPane.rowIndex="1" />
+                  <ToggleButton fx:id="b1" mnemonicParsing="false" prefHeight="50.0" prefWidth="50.0" styleClass="toggleBack" toggleGroup="$element" GridPane.columnIndex="1" GridPane.rowIndex="1" />
                   <Text strokeType="OUTSIDE" strokeWidth="0.0" text="I" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="BOTTOM">
                      <font>
                         <Font name="Times New Roman" size="18.0" />
@@ -2132,6 +2238,13 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor></Rectangle>
+                  <Rectangle fx:id="buttonBe4" arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="55.0" onMouseClicked="#clickedBe4" stroke="BLACK" strokeType="INSIDE" styleClass="alkalineearth" width="55.0" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets />
+                     </GridPane.margin>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor></Rectangle>
                   <Rectangle fx:id="buttonNa11" arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="55.0" onMouseClicked="#clickedNa11" stroke="BLACK" strokeType="INSIDE" styleClass="alkalimetal" width="55.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <GridPane.margin>
                         <Insets />
@@ -2228,14 +2341,14 @@
                         <Insets />
                      </GridPane.margin>
                      <cursor>
-                        <Cursor fx:constant="HAND" />
+                        <Cursor fx:constant="DEFAULT" />
                      </cursor></Rectangle>
                   <Rectangle arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="55.0" stroke="BLACK" strokeType="INSIDE" styleClass="actinide" width="55.0" GridPane.columnIndex="3" GridPane.rowIndex="7">
                      <GridPane.margin>
                         <Insets />
                      </GridPane.margin>
                      <cursor>
-                        <Cursor fx:constant="HAND" />
+                        <Cursor fx:constant="DEFAULT" />
                      </cursor></Rectangle>
                   <Rectangle fx:id="buttonTi22" arcHeight="15.0" arcWidth="15.0" fill="WHITE" height="55.0" onMouseClicked="#clickedTi22" stroke="BLACK" strokeType="INSIDE" styleClass="transitionmetal" width="55.0" GridPane.columnIndex="4" GridPane.rowIndex="4">
                      <GridPane.margin>

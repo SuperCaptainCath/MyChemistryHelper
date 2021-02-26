@@ -91,7 +91,7 @@
  ******************************************************************************/
 
 .toggle-button {
-    -fx-background-color: transparent;
+    -fx-background-color: white;
     -fx-alignment: CENTER;
 }
 
