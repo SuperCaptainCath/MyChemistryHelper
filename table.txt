@@ -85,7 +85,7 @@
 85,At,Astatine,209.99,575,612
 86,Rn,Radon,222.02,202,211.45
 87,Fr,Francium,223.02,300,923
-88,Radium,226.03,973,1413
+88,Ra,Radium,226.03,973,1413
 89,Ac,Actinium,227.03,1324,3471
 90,Th,Thorium,232.04,2023,5061
 91,Pa,Protactinium,231.04,1845,4273
@@ -104,7 +104,7 @@
 104,Rf,Rutherfordium,267.12,Unknown,Unknown
 105,Db,Dubnium,268.13,Unknown,Unknown
 106,Sg,Seaborgium,271.13,Unknown,Unknown
-107,Bohrium,274.14,Unknown,Unknown
+107,Bh,Bohrium,274.14,Unknown,Unknown
 108,Hs,Hassium,277.15,Unknown,Unknown
 109,Mt,Meitnerium,278.16,Unknown,Unknown
 110,Ds,Darmstadtium,281.17,Unknown,Unknown
