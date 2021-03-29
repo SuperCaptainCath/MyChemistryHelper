@@ -1,4 +1,166 @@
-/*Styling for the Interactive Periodic Table*/
+/*******************************************************************************
+ *                                                                             *
+ * Home Page                                                                   *
+ *                                                                             *
+ ******************************************************************************/
+.title {
+    -fx-fill: #FEF9C7;
+    -fx-stroke-width: 2;
+    -fx-font-family: "Phosphate";
+    -fx-font-size: 69;
+}
+.subtitle {
+    -fx-fill: #FEF9C7;
+    -fx-stroke-width: 2;
+    -fx-font-family: "Copperplate";
+    -fx-font-size: 24;
+}
+
+.back {
+    -fx-background-color: #026670;
+}
+/*******************************************************************************
+ *                                                                             *
+ * Equation Balancer                                                           *
+ *                                                                             *
+ ******************************************************************************/
+
+.textFieldEquation {
+    -fx-font-family: "Copperplate";
+    -fx-font-size: 24;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #026670;
+    -fx-stroke: WHITE;
+    -fx-stroke-width: 20;
+    -fx-background-color: #9FEDD7;
+    -fx-cursor: text;
+}
+
+/*******************************************************************************                                                                         *
+* TextField                                                                   *                                                            *
+******************************************************************************/
+
+.text-field {
+    -fx-padding: 0.25em 0.416667em  0.333333em 0.416667em; /* 3 5 4 5 */
+}
+
+.text-field:focused {
+    -fx-background-color: #9FEDD7;
+    -fx-prompt-text-fill: transparent;
+}
+
+.text-field:disabled {
+    -fx-opacity: -fx-disabled-opacity;
+}
+/*******************************************************************************                                                                   *
+ * ScrollPane                                                                  *                                                                        *
+ ******************************************************************************/
+
+.scroll-pane {
+    -fx-background-color: #FEF9C7;
+    -fx-background-insets: 0, 1;
+    -fx-padding: 1.0;
+}
+
+.scroll-pane:focused {
+    -fx-background-color: -fx-focus-color, -fx-box-border, -fx-background;
+    -fx-background-insets: -1.4, 0, 1;
+}
+
+.scroll-pane > * > .scroll-bar:vertical {
+    -fx-background-insets: 0, 0 0 0 1;
+    -fx-padding: 0.0 0.0 0.0 0.0;
+}
+
+.scroll-pane:disabled {
+    -fx-opacity: -fx-disabled-opacity;
+}
+/*******************************************************************************                                                                            *
+ * ScrollBar                                                                   *                                                        *
+ ******************************************************************************/
+/* The main scrollbar CSS class of ListView */
+.scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+/* The increment and decrement button CSS class of scrollbar */
+.increment-button,.decrement-button {
+    -fx-background-color:transparent;
+    -fx-background-radius: 2em;
+}
+/* The main scrollbar **track** CSS class  */
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-border-color: #FEF9C7;
+}
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.scroll-bar:vertical .thumb {
+    -fx-background-color:  grey;
+    -fx-background-insets: 0, 0, 0;
+    -fx-background-radius: 0em;
+
+}
+/* The main scrollbar **track** CSS class on event of "hover" and "pressed" */
+.scroll-bar:vertical:hover .track,
+.scroll-bar:vertical:pressed .track{
+
+}
+/* The main scrollbar **thumb** CSS class on event of "hover" and "pressed" */
+.scroll-bar .thumb:hover,
+.scroll-bar .thumb:pressed{
+    -fx-background-color: #026670;
+    -fx-cursor: hand;
+}
+
+.increment-button:hover ,.decrement-button:hover {
+    -fx-border-color:grey;
+    -fx-border-width: 2;
+    -fx-background-color: grey;
+    -fx-background-radius: 0;
+    -fx-cursor: hand;
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * Button                                                                      *
+ *                                                                             *
+ ******************************************************************************/
+
+.button:focused {
+    -fx-color: -fx-focused-base;
+    -fx-background-color: -fx-focus-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: -1.4, 0, 1, 2;
+    -fx-background-radius:  6.4, 5, 4, 3;
+}
+
+.button:hover {
+    -fx-color: -fx-hover-base;
+}
+
+.button:armed {
+    -fx-color: -fx-pressed-base;
+}
+
+.button:default {
+    -fx-base: -fx-accent;
+}
+
+.button:cancel {
+}
+
+.button:disabled {
+    -fx-opacity: -fx-disabled-opacity;
+}
+
+.button:show-mnemonics > .mnemonic-underline {
+    -fx-stroke: -fx-text-fill;
+}
+
+/*******************************************************************************
+ *                                                                             *
+ * Interactive Periodic Table                                                  *
+ *                                                                             *
+ ******************************************************************************/
 .nobleGas {
   -fx-arc-height: 15;
   -fx-arc-width: 15;
@@ -84,10 +246,8 @@
   -fk-arc-weight: 15;
   -fx-fill: white;
 }
-/*******************************************************************************
- *                                                                             *
- * ToggleButton                                                                *
- *                                                                             *
+/*******************************************************************************                                                                        *
+ * ToggleButton                                                                *                                                                           *
  ******************************************************************************/
 
 .toggle-button {
@@ -590,51 +750,7 @@
     -fx-opacity: 1.0;
 }*/
 
-/*******************************************************************************
- *                                                                             *
- * Button                                                                      *
- *                                                                             *
- ******************************************************************************/
 
-.button {
-    -fx-background-color: -fx-shadow-highlight-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
-    -fx-background-insets: 0 0 -1 0, 0, 1, 2;
-    -fx-background-radius: 5, 5, 4, 3;
-    -fx-padding: 0.166667em 0.833333em 0.25em 0.833333em; /* 2 10 3 10 */
-    -fx-text-fill: -fx-text-base-color;
-    -fx-alignment: CENTER;
-    -fx-content-display: LEFT;
-}
-
-.button:focused {
-    -fx-color: -fx-focused-base;
-    -fx-background-color: -fx-focus-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
-    -fx-background-insets: -1.4, 0, 1, 2;
-    -fx-background-radius:  6.4, 5, 4, 3;
-}
-
-.button:hover {
-    -fx-color: -fx-hover-base;
-}
-
-.button:armed {
-    -fx-color: -fx-pressed-base;
-}
-
-.button:default {
-    -fx-base: -fx-accent;
-}
-
-.button:cancel {
-}
-
-.button:disabled {
-    -fx-opacity: -fx-disabled-opacity;
-}
-
-.button:show-mnemonics > .mnemonic-underline {
-    -fx-stroke: -fx-text-fill;
-}
 
 /*******************************************************************************
  *                                                                             *
@@ -1174,146 +1290,7 @@
     -fx-opacity: -fx-disabled-opacity;
 }
 
-/*******************************************************************************
- *                                                                             *
- * ScrollBar                                                                   *
- *                                                                             *
- ******************************************************************************/
 
-.scroll-bar:horizontal {
-    -fx-background-color:
-        -fx-box-border,
-        linear-gradient(to bottom, derive(-fx-color,30%) 5%, derive(-fx-color,-17%) 100%);
-    -fx-background-insets: 0, 1;
-}
-
-.scroll-bar:horizontal:focused {
-    -fx-background-color:
-        -fx-focus-color,
-        -fx-box-border,
-        linear-gradient(to bottom, derive(-fx-color,30%) 5%, derive(-fx-color,-17%) 100%);
-    -fx-background-insets: -1.4, 0, 1;
-}
-
-.scroll-bar:vertical {
-    -fx-background-color:
-        -fx-box-border,
-        linear-gradient(to top, derive(-fx-color,30%) 5%, derive(-fx-color,-17%) 100%);
-    -fx-background-insets: 0, 1;
-}
-
-.scroll-bar:vertical:focused {
-    -fx-background-color:
-        -fx-focus-color,
-        -fx-box-border,
-        linear-gradient(to top, derive(-fx-color,30%) 5%, derive(-fx-color,-17%) 100%);
-    -fx-background-insets: -1.4, 0, 1;
-}
-
-.scroll-bar:horizontal > .thumb {
-    -fx-background-color:
-        -fx-box-border,
-        linear-gradient(to bottom, derive(-fx-color,95%), derive(-fx-color,10%)),
-        linear-gradient(to bottom, derive(-fx-color,38%), derive(-fx-color,-16%));
-    -fx-background-insets: 0, 1, 2;
-    -fx-background-radius: 0.5em; /* makes sure this remains circular */
-}
-
-.scroll-bar:vertical > .thumb {
-    -fx-background-color:
-        -fx-box-border,
-        linear-gradient(to right, derive(-fx-color,95%), derive(-fx-color,10%)),
-        linear-gradient(to right, derive(-fx-color,38%), derive(-fx-color,-16%));
-    -fx-background-insets: 0, 1, 2;
-    -fx-background-radius: 0.5em; /* makes sure this remains circular */
-}
-
-.scroll-bar:focused > .thumb {
-    -fx-color: -fx-focused-base;
-}
-
-.scroll-bar > .thumb:hover {
-    -fx-color: -fx-hover-base;
-}
-
-/* Uncomment when RT-10521 is fixed.
-.scroll-bar .thumb:pressed {
-    -fx-color: -fx-pressed-base;
-}
-*/
-
-.scroll-bar:horizontal > .track {
-     -fx-background-color:
-        -fx-box-border,
-        linear-gradient(to bottom, derive(-fx-color,-15%), derive(-fx-color,2.2%) 20%, derive(-fx-color,60%));
-    -fx-background-insets:  0, 1;
-    -fx-background-radius: 0.5em; /* makes sure this remains circular */
-}
-.scroll-bar:horizontal > .track-background {
-     -fx-background-color:
-        -fx-box-border,
-        linear-gradient(to top, derive(-fx-color,-15%), derive(-fx-color,2.2%) 20%, derive(-fx-color,60%));
-    -fx-background-insets:  0, 1;
-}
-
-.scroll-bar:vertical > .track {
-     -fx-background-color:
-        -fx-box-border,
-        linear-gradient(to right, derive(-fx-color,-15%), derive(-fx-color,2.2%) 20%, derive(-fx-color,60%));
-    -fx-background-insets:  0, 1;
-    -fx-background-radius: 0.5em; /* makes sure this remains circular */
-}
-
-.scroll-bar:vertical > .track-background {
-     -fx-background-color:
-        -fx-box-border,
-        linear-gradient(to left, derive(-fx-color,-15%), derive(-fx-color,2.2%) 20%, derive(-fx-color,60%));
-    -fx-background-insets:  0, 1;
-}
-
-.scroll-bar > .increment-button {
-    -fx-background-color: transparent;
-    -fx-background-insets:  0;
-    -fx-padding: 0.25em; /* 3 */
-}
-
-.scroll-bar > .decrement-button {
-    -fx-background-color: transparent;
-    -fx-background-insets:  0;
-    -fx-padding: 0.25em; /* 3 */
-}
-
-.scroll-bar:horizontal > .increment-button > .increment-arrow {
-    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
-    -fx-background-insets: 1 0 -1 0, 0;
-    -fx-padding: 0.5em 0.333333em 0.0em 0.0em; /* 6 4 0 0 */
-    -fx-shape: "M 4 0 L 0 -3 L 0 3 z";
-}
-
-.scroll-bar:vertical > .increment-button > .increment-arrow {
-    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
-    -fx-background-insets: 1 0 -1 0, 0;
-    -fx-padding: 0.333333em 0.5em 0.0em 0.0em; /* 4 6 0 0 */
-    -fx-shape: "M -3 0 L 0 4 L 3 0 z";
-}
-
-.scroll-bar:horizontal > .decrement-button > .decrement-arrow {
-    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
-    -fx-background-insets: 1 0 -1 0, 0;
-    -fx-padding: 0.5em 0.333333em 0.0em 0.0em; /* 6 4 0 0 */
-    -fx-shape: "M 0 0 L 4 -3 L 4 3 z";
-}
-
-.scroll-bar:vertical > .decrement-button > .decrement-arrow {
-    -fx-background-color: -fx-mark-highlight-color, -fx-mark-color;
-    -fx-background-insets: 1 0 -1 0, 0;
-    -fx-padding: 0.333333em 0.5em 0.0em 0.0em; /* 4 6 0 0 */
-    -fx-shape: "M -3 0 L 0 -4 L 3 0 z";
-}
-
-.scroll-bar:disabled {
-    -fx-opacity: -fx-disabled-opacity;
-}
 
 /* The opacity of the parent is applied to the children.  So we make the
  * opacity 1.0 here to avoid double translucency.
@@ -1322,41 +1299,6 @@
     -fx-opacity: 1.0;
 }*/
 
-/*******************************************************************************
- *                                                                             *
- * ScrollPane                                                                  *
- *                                                                             *
- ******************************************************************************/
-
-.scroll-pane {
-    -fx-background-color: -fx-box-border,-fx-background;
-    -fx-background-insets: 0, 1;
-    -fx-padding: 1.0;
-}
-
-.scroll-pane:focused {
-    -fx-background-color: -fx-focus-color, -fx-box-border, -fx-background;
-    -fx-background-insets: -1.4, 0, 1;
-}
-
-.scroll-pane > * > .scroll-bar:horizontal {
-    -fx-background-insets: 0, 1 0 0 0;
-    -fx-padding: 0.0 0.0 0.0 0.0;
-}
-
-.scroll-pane > * > .scroll-bar:vertical {
-    -fx-background-insets: 0, 0 0 0 1;
-    -fx-padding: 0.0 0.0 0.0 0.0;
-}
-
-.scroll-pane > .corner {
-    -fx-background-color: -fx-box-border, -fx-base;
-    -fx-background-insets: 0, 1 0 0 1;
-}
-
-.scroll-pane:disabled {
-    -fx-opacity: -fx-disabled-opacity;
-}
 
 /*******************************************************************************
  *                                                                             *
@@ -1398,32 +1340,6 @@
     -fx-highlight-text-fill: black; /*COLOR WAS CHANGED FROM WHITE TO BLACK*/
 }
 
-/*******************************************************************************
- *                                                                             *
- * TextField                                                                   *
- *                                                                             *
- ******************************************************************************/
-
-.text-field {
-    -fx-background-color: -fx-shadow-highlight-color, -fx-text-box-border, -fx-control-inner-background;
-    -fx-background-insets: 0, 1, 2;
-    -fx-background-radius: 3, 2, 2;
-    -fx-padding: 0.25em 0.416667em  0.333333em 0.416667em; /* 3 5 4 5 */
-    -fx-text-fill: -fx-text-inner-color;
-    -fx-prompt-text-fill: derive(-fx-control-inner-background,-30%);
-    -fx-cursor: text;
-}
-
-.text-field:focused {
-    -fx-background-color: -fx-focus-color, -fx-text-box-border, -fx-control-inner-background;
-    -fx-background-insets: -0.4, 1, 2;
-    -fx-background-radius: 3.4, 2, 2;
-    -fx-prompt-text-fill: transparent;
-}
-
-.text-field:disabled {
-    -fx-opacity: -fx-disabled-opacity;
-}
 
 /*******************************************************************************
  *                                                                             *
