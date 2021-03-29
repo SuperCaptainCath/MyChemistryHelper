@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="700.0" minWidth="1244.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #026670;" stylesheets="@quickChemistry.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Text layoutX="-4.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="QuickChemistry" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="1242.2705078125">
+         <font>
+            <Font name="Phosphate Inline" size="69.0" />
+         </font>
+      </Text>
+      <Text layoutX="-2.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="• My Chemistry Homework Helper •" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="1243.4736633300781">
+         <font>
+            <Font name="Copperplate" size="24.0" />
+         </font>
+      </Text>
+      <HBox alignment="CENTER" layoutX="60.0" layoutY="203.0" prefHeight="376.0" prefWidth="1186.0">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="159.0" prefWidth="281.0" style="-fx-background-color: transparent; -fx-background-radius: 0;">
+                     <graphic>
+                        <ImageView fitHeight="174.0" fitWidth="307.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@IPT_button.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets bottom="90.0" />
+                     </padding>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="159.0" prefWidth="281.0" style="-fx-background-color: transparent; -fx-background-radius: 0;">
+                     <graphic>
+                        <ImageView fitHeight="174.0" fitWidth="307.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@LR_button.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+               <padding>
+                  <Insets right="90.0" />
+               </padding>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </VBox>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+               <children>
+                  <Button mnemonicParsing="false" prefHeight="159.0" prefWidth="281.0" style="-fx-background-color: transparent; -fx-background-radius: 0;">
+                     <graphic>
+                        <ImageView fitHeight="174.0" fitWidth="307.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@EB_button.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <padding>
+                        <Insets bottom="90.0" />
+                     </padding>
+                  </Button>
+                  <Button mnemonicParsing="false" prefHeight="159.0" prefWidth="281.0" style="-fx-background-color: transparent; -fx-background-radius: 0;">
+                     <graphic>
+                        <ImageView fitHeight="174.0" fitWidth="307.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@CON_button.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+      <Line endX="-53.74732208251953" endY="667.7501220703125" fill="#fef9c7" layoutX="78.0" layoutY="50.0" startX="-53.74732208251953" startY="-70.0709228515625" stroke="#fef9c7" strokeWidth="5.0" />
+      <Line endX="-53.74732208251953" endY="667.7501220703125" fill="#fef9c7" layoutX="93.0" layoutY="59.0" startX="-53.74732208251953" startY="-70.0709228515625" stroke="#fef9c7" strokeWidth="5.0" />
+      <Line endX="-53.74732208251953" endY="667.7501220703125" fill="#fef9c7" layoutX="107.0" layoutY="61.0" startX="-53.74732208251953" startY="-70.0709228515625" stroke="#fef9c7" strokeWidth="5.0" />
+      <Line endX="1156.0" endY="-44.5501823425293" fill="#fef9c7" layoutX="88.0" layoutY="64.0" startX="-88.00000762939453" startY="-44.5501823425293" stroke="#fef9c7" strokeWidth="5.0" />
+      <Line endX="1155.0" endY="-44.55018615722656" fill="#fef9c7" layoutX="89.0" layoutY="78.0" startX="-88.00000762939453" startY="-44.5501823425293" stroke="#fef9c7" strokeWidth="5.0" />
+   </children>
+</AnchorPane>
