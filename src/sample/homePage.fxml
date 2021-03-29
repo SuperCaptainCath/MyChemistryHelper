@@ -11,7 +11,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="700.0" minWidth="1244.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #026670;" stylesheets="@quickChemistry.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="700.0" minWidth="1244.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #026670;" stylesheets="@../resources/quickChemistry.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Text layoutX="-4.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="QuickChemistry" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="1242.2705078125">
          <font>
@@ -31,7 +31,7 @@
                      <graphic>
                         <ImageView fitHeight="174.0" fitWidth="307.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@IPT_button.png" />
+                              <Image url="@../resources/IPT_button.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -43,7 +43,7 @@
                      <graphic>
                         <ImageView fitHeight="174.0" fitWidth="307.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@LR_button.png" />
+                              <Image url="@../resources/LR_button.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -62,7 +62,7 @@
                      <graphic>
                         <ImageView fitHeight="174.0" fitWidth="307.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@EB_button.png" />
+                              <Image url="@../resources/EB_button.png" />
                            </image>
                         </ImageView>
                      </graphic>
@@ -74,7 +74,7 @@
                      <graphic>
                         <ImageView fitHeight="174.0" fitWidth="307.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@CON_button.png" />
+                              <Image url="@../resources/CON_button.png" />
                            </image>
                         </ImageView>
                      </graphic>
