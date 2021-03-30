@@ -13,7 +13,7 @@ public class Main extends Application {
         Parent root = FXMLLoader.load(getClass().getResource("equationBalancer.fxml"));
 
         Scene scene = new Scene(root);
-        stage.setTitle("QuickChemistry | Interactive Periodic Table");
+        stage.setTitle("QuickChemistry | Equation Balancer");
         stage.setScene(scene);
         stage.show();
     }
