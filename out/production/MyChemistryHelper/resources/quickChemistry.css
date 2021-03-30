@@ -109,7 +109,6 @@
 .scroll-bar .thumb:hover,
 .scroll-bar .thumb:pressed{
     -fx-background-color: #026670;
-    -fx-cursor: hand;
 }
 
 .increment-button:hover ,.decrement-button:hover {
