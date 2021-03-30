@@ -158,75 +158,84 @@
  * Interactive Periodic Table                                                  *
  *                                                                             *
  ******************************************************************************/
+.numberTable {
+    -fx-family-font: "Copperplate";
+    -fx-font-color: #FEF9C7;
+    -fx-font-size: 20;
+}
+.romanTable {
+    -fx-family-font: "Copperplate";
+    -fx-font-color: #FEF9C7;
+}
 .nobleGas {
-  -fx-arc-height: 15;
-  -fx-arc-width: 15;
-  -fx-fill: transparent;
-  -fx-stroke: #A24936;
-  -fx-stroke-width: 3;
+    -fx-arc-height: 0;
+    -fx-arc-width: 0;
+    -fx-fill: transparent;
+    -fx-stroke: #9FEDD7;
+    -fx-stroke-width: 2.5;
 }
 .halogen {
-  -fx-arc-height: 15;
-  -fx-arc-width: 15;
-  -fx-fill: transparent;
-  -fx-stroke: #48BEFF;
-  -fx-stroke-width: 3;
+    -fx-arc-height: 0;
+    -fx-arc-width: 0;
+    -fx-fill: transparent;
+    -fx-stroke: #9FEDD7;
+    -fx-stroke-width: 2.5;
 }
 .nonmetal {
-  -fx-arc-height: 15;
-  -fx-arc-width: 15;
-  -fx-fill: transparent;
-  -fx-stroke: #FB4D3D;
-  -fx-stroke-width: 3;
+    -fx-arc-height: 0;
+    -fx-arc-width: 0;
+    -fx-fill: transparent;
+    -fx-stroke: #9FEDD7;
+    -fx-stroke-width: 2.5;
 }
 .metalloid {
-  -fx-arc-height: 15;
-  -fx-arc-width: 15;
-  -fx-fill: transparent;
-  -fx-stroke: #09A129;
-  -fx-stroke-width: 3;
+    -fx-arc-height: 0;
+    -fx-arc-width: 0;
+    -fx-fill: transparent;
+    -fx-stroke: #9FEDD7;
+    -fx-stroke-width: 2.5;
 }
 .basicmetal {
-  -fx-arc-height: 15;
-  -fx-arc-width: 15;
-  -fx-fill: transparent;
-  -fx-stroke: #CB48B7;
-  -fx-stroke-width: 3;
+    -fx-arc-height: 0;
+    -fx-arc-width: 0;
+    -fx-fill: transparent;
+    -fx-stroke: #9FEDD7;
+    -fx-stroke-width: 2.5;
 }
 .transitionmetal {
-  -fx-arc-height: 15;
-  -fx-arc-width: 15;
-  -fx-fill: transparent;
-  -fx-stroke: #F18F01;
-  -fx-stroke-width: 3;
+    -fx-arc-height: 0;
+    -fx-arc-width: 0;
+    -fx-fill: transparent;
+    -fx-stroke: #9FEDD7;
+    -fx-stroke-width: 2.5;
 }
 .alkalineearth {
-  -fx-arc-height: 15;
-  -fx-arc-width: 15;
-  -fx-fill: transparent;
-  -fx-stroke: #8338EC;
-  -fx-stroke-width: 3;
+    -fx-arc-height: 0;
+    -fx-arc-width: 0;
+    -fx-fill: transparent;
+    -fx-stroke: #9FEDD7;
+    -fx-stroke-width: 2.5;
 }
 .alkalimetal {
-  -fx-arc-height: 15;
-  -fx-arc-width: 15;
+  -fx-arc-height: 0;
+  -fx-arc-width: 0;
   -fx-fill: transparent;
-  -fx-stroke: #007EA7;
-  -fx-stroke-width: 3;
+  -fx-stroke: #9FEDD7;
+  -fx-stroke-width: 2.5;
 }
 .lanthanide {
-  -fx-arc-height: 15;
-  -fk-arc-weight: 15;
-  -fx-fill: transparent;
-  -fx-stroke: #FF006E;
-  -fx-stroke-width: 3;
+    -fx-arc-height: 0;
+    -fx-arc-width: 0;
+    -fx-fill: transparent;
+    -fx-stroke: #9FEDD7;
+    -fx-stroke-width: 2.5;
 }
 .actinide {
-  -fx-arc-height: 15;
-  -fk-arc-weight: 15;
-  -fx-fill: transparent;
-  -fx-stroke: #D36135;
-  -fx-stroke-width: 3;
+    -fx-arc-height: 0;
+    -fx-arc-width: 0;
+    -fx-fill: transparent;
+    -fx-stroke: #9FEDD7;
+    -fx-stroke-width: 2.5;
 }
 .infoBox {
   -fx-arc-height: 60;
@@ -238,29 +247,29 @@
 .infoText {
   -fx-text-fill: #026670;
 }
-.toggleBack {
-  -fx-arc-height: 15;
-  -fk-arc-weight: 15;
-  -fx-fill: white;
-}
+
 /*******************************************************************************                                                                        *
  * ToggleButton                                                                *                                                                           *
  ******************************************************************************/
-
+.toggleBack {
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
+    -fx-fill: white;
+}
 .toggle-button {
     -fx-background-color: white;
     -fx-alignment: CENTER;
 }
 
 .toggle-button:focused {
-    -fx-color: #FEF9C7;
-    -fx-background-color: #FEF9C7;
+    -fx-color: #9FEDD7;
+    -fx-background-color: #9FEDD7;
     /*-fx-background-insets: -1.4, 0, 1, 2;
     -fx-background-radius: 6.4, 5, 4, 3;*/
 }
 
 .toggle-button:hover {
-    -fx-color: #FEF9C7;
+    -fx-color: #9FEDD7;
 }
 
 .toggle-button:armed {
@@ -268,12 +277,12 @@
 }
 
 .toggle-button:selected {
-    -fx-background-color: #FEF9C7;
+    -fx-background-color: #9FEDD7;
 }
 
 .toggle-button:selected:focused {
-    -fx-color: #FEF9C7
-    -fx-background-color: #FEF9C7
+    -fx-color: #9FEDD7;
+    -fx-background-color: #9FEDD7;
 }
 
 .toggle-button:disabled {
