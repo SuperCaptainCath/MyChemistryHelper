@@ -10,10 +10,10 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("equationBalancer.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("periodicTable.fxml"));
 
         Scene scene = new Scene(root);
-        stage.setTitle("QuickChemistry | Equation Balancer");
+        stage.setTitle("QuickChemistry | Interactive Periodic Table");
         stage.setScene(scene);
         stage.show();
     }
