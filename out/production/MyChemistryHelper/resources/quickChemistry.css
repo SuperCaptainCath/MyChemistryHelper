@@ -122,35 +122,15 @@
 /*******************************************************************************                                                                    *
  * Button                                                                      *                                                                          *
  ******************************************************************************/
-
-.button:focused {
-    -fx-color: -fx-focused-base;
-    -fx-background-color: -fx-focus-color, -fx-outer-border, -fx-inner-border, -fx-body-color;
-    -fx-background-insets: -1.4, 0, 1, 2;
-    -fx-background-radius:  6.4, 5, 4, 3;
+.buttonBalance:hover {
+    -fx-opacity: 75%;
+}
+.buttonBalance:focused {
+    -fx-opacity: 75%;
 }
 
-.button:hover {
-    -fx-color: -fx-hover-base;
-}
-
-.button:armed {
-    -fx-color: -fx-pressed-base;
-}
-
-.button:default {
-    -fx-base: -fx-accent;
-}
-
-.button:cancel {
-}
-
-.button:disabled {
-    -fx-opacity: -fx-disabled-opacity;
-}
-
-.button:show-mnemonics > .mnemonic-underline {
-    -fx-stroke: -fx-text-fill;
+.buttonBalance:armed {
+    -fx-opacity: 75%;
 }
 
 /*******************************************************************************
@@ -167,70 +147,7 @@
     -fx-family-font: "Copperplate";
     -fx-font-color: #FEF9C7;
 }
-.nobleGas {
-    -fx-arc-height: 0;
-    -fx-arc-width: 0;
-    -fx-fill: transparent;
-    -fx-stroke: #9FEDD7;
-    -fx-stroke-width: 2.5;
-}
-.halogen {
-    -fx-arc-height: 0;
-    -fx-arc-width: 0;
-    -fx-fill: transparent;
-    -fx-stroke: #9FEDD7;
-    -fx-stroke-width: 2.5;
-}
-.nonmetal {
-    -fx-arc-height: 0;
-    -fx-arc-width: 0;
-    -fx-fill: transparent;
-    -fx-stroke: #9FEDD7;
-    -fx-stroke-width: 2.5;
-}
-.metalloid {
-    -fx-arc-height: 0;
-    -fx-arc-width: 0;
-    -fx-fill: transparent;
-    -fx-stroke: #9FEDD7;
-    -fx-stroke-width: 2.5;
-}
-.basicmetal {
-    -fx-arc-height: 0;
-    -fx-arc-width: 0;
-    -fx-fill: transparent;
-    -fx-stroke: #9FEDD7;
-    -fx-stroke-width: 2.5;
-}
-.transitionmetal {
-    -fx-arc-height: 0;
-    -fx-arc-width: 0;
-    -fx-fill: transparent;
-    -fx-stroke: #9FEDD7;
-    -fx-stroke-width: 2.5;
-}
-.alkalineearth {
-    -fx-arc-height: 0;
-    -fx-arc-width: 0;
-    -fx-fill: transparent;
-    -fx-stroke: #9FEDD7;
-    -fx-stroke-width: 2.5;
-}
-.alkalimetal {
-  -fx-arc-height: 0;
-  -fx-arc-width: 0;
-  -fx-fill: transparent;
-  -fx-stroke: #9FEDD7;
-  -fx-stroke-width: 2.5;
-}
-.lanthanide {
-    -fx-arc-height: 0;
-    -fx-arc-width: 0;
-    -fx-fill: transparent;
-    -fx-stroke: #9FEDD7;
-    -fx-stroke-width: 2.5;
-}
-.actinide {
+.nobleGas, .halogen, .nonmetal, .metalloid, .basicmetal, .transitionmetal, .alkalineearth, .alkalimetal, .lanthanide, .actinide{
     -fx-arc-height: 0;
     -fx-arc-width: 0;
     -fx-fill: transparent;
@@ -251,48 +168,156 @@
 /*******************************************************************************                                                                        *
  * ToggleButton                                                                *                                                                           *
  ******************************************************************************/
-.toggleBack {
+.toggleHalogen {
+    -fx-background-color: #42383C;
+    -fx-background-radius: 0;
     -fx-arc-height: 0;
     -fk-arc-weight: 0;
-    -fx-fill: white;
 }
-.toggle-button {
-    -fx-background-color: white;
-    -fx-alignment: CENTER;
+.toggleHalogen:focused,
+.toggleHalogen:armed,
+.toggleHalogen:selected,
+.toggleHalogen:hover{
+    -fx-background-color: #1c1717;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
 }
-
-.toggle-button:focused {
-    -fx-color: #9FEDD7;
-    -fx-background-color: #9FEDD7;
-    /*-fx-background-insets: -1.4, 0, 1, 2;
-    -fx-background-radius: 6.4, 5, 4, 3;*/
+.toggleMetalloid {
+    -fx-background-color: #A22522;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
 }
-
-.toggle-button:hover {
-    -fx-color: #9FEDD7;
+.toggleMetalloid:focused,
+.toggleMetalloid:armed,
+.toggleMetalloid:selected,
+.toggleMetalloid:hover{
+    -fx-background-color: #691716;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
 }
-
-.toggle-button:armed {
-    -fx-color: -fx-pressed-base;
+.toggleBasicMetal {
+    -fx-background-color: #B388EB;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
 }
-
-.toggle-button:selected {
-    -fx-background-color: #9FEDD7;
+.toggleBasicMetal:focused,
+.toggleBasicMetal:armed,
+.toggleBasicMetal:selected,
+.toggleBasicMetal:hover{
+    -fx-background-color: #5c4679;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
 }
-
-.toggle-button:selected:focused {
-    -fx-color: #9FEDD7;
-    -fx-background-color: #9FEDD7;
+.toggleAlkaliMetal {
+    -fx-background-color: #007EA7;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
 }
-
-.toggle-button:disabled {
-    -fx-opacity: -fx-disabled-opacity;
+.toggleAlkaliMetal:focused,
+.toggleAlkaliMetal:armed,
+.toggleAlkaliMetal:selected,
+.toggleAlkaliMetal:hover{
+    -fx-background-color: #013d51;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
 }
-
-.toggle-button:show-mnemonics > .mnemonic-underline {
-    -fx-stroke: -fx-text-fill;
+.toggleAlkalineEarth {
+    -fx-background-color: #5F506B;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
 }
-
+.toggleAlkalineEarth:focused,
+.toggleAlkalineEarth:armed,
+.toggleAlkalineEarth:selected,
+.toggleAlkalineEarth:hover{
+    -fx-background-color: #453b4f;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
+}
+.toggleTransitionMetal {
+    -fx-background-color: #DB5461;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
+}
+.toggleTransitionMetal:focused,
+.toggleTransitionMetal:armed,
+.toggleTransitionMetal:selected,
+.toggleTransitionMetal:hover{
+    -fx-background-color: #ac434c;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
+}
+.toggleNobleGas {
+    -fx-background-color: #AF5D63;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
+}
+.toggleNobleGas:focused,
+.toggleNobleGas:armed,
+.toggleNobleGas:selected,
+.toggleNobleGas:hover{
+    -fx-background-color: #7c383e;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
+}
+.toggleLanthanide {
+    -fx-background-color: #82204A;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
+}
+.toggleLanthanide:focused,
+.toggleLanthanide:armed,
+.toggleLanthanide:selected,
+.toggleLanthanide:hover{
+    -fx-background-color: #580527;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
+}
+.toggleActinide {
+    -fx-background-color: #3E2F5B;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
+}
+.toggleActinide:focused,
+.toggleActinide:armed,
+.toggleActinide:selected,
+.toggleActinide:hover{
+    -fx-background-color: #1f1532;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
+}
+.toggleNonmetal {
+    -fx-background-color: #DB4906;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
+}
+.toggleNonmetal:focused,
+.toggleNonmetal:armed,
+.toggleNonmetal:selected,
+.toggleNonmetal:hover{
+    -fx-background-color: #9b3304;
+    -fx-background-radius: 0;
+    -fx-arc-height: 0;
+    -fk-arc-weight: 0;
+}
 
 /*GENERAL STYLING*/
 /*******************************************************************************

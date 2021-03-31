@@ -52,13 +52,12 @@
                   <Pane prefHeight="12.0" prefWidth="1008.0" />
                   <TextField fx:id="outEquTextField" editable="false" prefHeight="62.0" prefWidth="1027.0" promptText="Answer displays here" styleClass="textFieldEquation" />
                   <Pane prefHeight="41.0" prefWidth="738.0" />
-                  <Button fx:id="balance_button" mnemonicParsing="false" style="-fx-background-color: transparent;">
+                  <Button fx:id="balance_button" mnemonicParsing="false" style="-fx-background-color: transparent;" styleClass="buttonBalance">
                      <graphic>
-                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" styleClass="buttonBalance">
                            <image>
                               <Image url="@../resources/balance_button.png" />
-                           </image>
-                        </ImageView>
+                           </image></ImageView>
                      </graphic>
                      <cursor>
                         <Cursor fx:constant="HAND" />
