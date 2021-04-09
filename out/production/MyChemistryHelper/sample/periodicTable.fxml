@@ -3,6 +3,7 @@
 <?import java.lang.String?>
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.control.ToggleButton?>
 <?import javafx.scene.control.ToggleGroup?>
@@ -3299,5 +3300,20 @@
             <Image url="@../resources/legend.png" />
          </image>
       </ImageView>
+      <Button fx:id="back_button" layoutX="14.0" layoutY="15.0" mnemonicParsing="false" onAction="#handleExit" prefHeight="33.0" prefWidth="70.0" style="-fx-background-color: transparent;">
+         <graphic>
+            <ImageView fitHeight="56.0" fitWidth="109.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../resources/back_button.png" />
+               </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+            </ImageView>
+         </graphic>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
    </children>
 </AnchorPane>

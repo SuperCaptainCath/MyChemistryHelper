@@ -3,18 +3,24 @@ package sample;
 import javafx.event.ActionEvent;
 import javafx.event.EventHandler;
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.control.ToggleGroup;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Text;
+import javafx.stage.Stage;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class intPTController {
+
+    @FXML Button back_button;
 
     //Fields in the information box about the element
     @FXML private Text elementSymbolText;
@@ -143,6 +149,17 @@ public class intPTController {
     @FXML private ToggleButton b116;
     @FXML private ToggleButton b117;
     @FXML private ToggleButton b118;
+
+    public void handleExit (ActionEvent event) {
+        try {
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("homePage.fxml"));
+            Stage stage = (Stage) back_button.getScene().getWindow();
+            Scene scene = new Scene(loader.load());
+            stage.setScene(scene);
+        }catch (IOException io){
+            io.printStackTrace();
+        }
+    }
 
     //mouseEvent for each element
     public void clickedH1(MouseEvent mouseEvent) throws IOException {

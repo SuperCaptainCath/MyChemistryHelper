@@ -19,6 +19,10 @@
 .back {
     -fx-background-color: #026670;
 }
+.buttonHome:hover {
+    -fx-border-color: #9FEDD7;
+    -fx-border-width: 10;
+}
 /*******************************************************************************
  *                                                                             *
  * Equation Balancer                                                           *
@@ -63,8 +67,7 @@
 }
 
 .scroll-pane:focused {
-    -fx-background-color: -fx-focus-color, -fx-box-border, -fx-background;
-    -fx-background-insets: -1.4, 0, 1;
+
 }
 
 .scroll-pane > * > .scroll-bar:vertical {

@@ -2,17 +2,19 @@
 
 <?import javafx.geometry.Insets?>
 <?import javafx.scene.Cursor?>
-<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.control.ToggleGroup?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.shape.Line?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="700.0" minWidth="1244.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #026670;" styleClass="background" stylesheets="@../resources/quickChemistry.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="700.0" minWidth="1244.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #026670;" styleClass="background" stylesheets="@../resources/quickChemistry.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.mainController">
    <children>
       <Text layoutX="-4.0" layoutY="91.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="QuickChemistry" textAlignment="CENTER" textOrigin="CENTER" wrappingWidth="1242.2705078125">
          <font>
@@ -24,26 +26,33 @@
             <Font name="Copperplate" size="24.0" />
          </font>
       </Text>
-      <HBox alignment="CENTER" layoutX="60.0" layoutY="203.0" prefHeight="376.0" prefWidth="1186.0">
+      <HBox alignment="CENTER" layoutX="60.0" layoutY="203.0" prefHeight="442.0" prefWidth="1186.0">
          <children>
             <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
                <children>
-                  <Button fx:id="IPT_button" mnemonicParsing="false" prefHeight="159.0" prefWidth="281.0" style="-fx-background-color: transparent; -fx-background-radius: 0;">
+                  <ToggleButton fx:id="IPT_button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleIPT" prefHeight="193.0" prefWidth="327.0" style="-fx-background-color: transparent;" styleClass="buttonHome" toggleGroup="$group1">
                      <graphic>
-                        <ImageView fitHeight="174.0" fitWidth="307.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="174.0" fitWidth="528.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@../resources/IPT_button.png" />
                            </image>
                         </ImageView>
                      </graphic>
-                     <padding>
-                        <Insets bottom="90.0" />
-                     </padding>
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor>
-                  </Button>
-                  <Button fx:id="LR_button" mnemonicParsing="false" prefHeight="159.0" prefWidth="281.0" style="-fx-background-color: transparent; -fx-background-radius: 0;">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="group1" />
+                     </toggleGroup>
+                  </ToggleButton>
+                  <Pane maxHeight="90.0" prefHeight="90.0" prefWidth="324.0" />
+                  <ToggleButton fx:id="LR_button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleLR" prefHeight="193.0" prefWidth="327.0" style="-fx-background-color: transparent;" styleClass="buttonHome">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="group11" />
+                     </toggleGroup>
+                     <cursor>
+                        <Cursor fx:constant="HAND" />
+                     </cursor>
                      <graphic>
                         <ImageView fitHeight="174.0" fitWidth="307.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -51,10 +60,7 @@
                            </image>
                         </ImageView>
                      </graphic>
-                     <cursor>
-                        <Cursor fx:constant="HAND" />
-                     </cursor>
-                  </Button>
+                  </ToggleButton>
                </children>
                <padding>
                   <Insets right="90.0" />
@@ -65,22 +71,13 @@
             </VBox>
             <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
                <children>
-                  <Button fx:id="EB_button" mnemonicParsing="false" prefHeight="159.0" prefWidth="281.0" style="-fx-background-color: transparent; -fx-background-radius: 0;">
-                     <graphic>
-                        <ImageView fitHeight="174.0" fitWidth="307.0" pickOnBounds="true" preserveRatio="true">
-                           <image>
-                              <Image url="@../resources/EB_button.png" />
-                           </image>
-                        </ImageView>
-                     </graphic>
-                     <padding>
-                        <Insets bottom="90.0" />
-                     </padding>
+                  <ToggleButton fx:id="CON_button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleCON" prefHeight="193.0" prefWidth="327.0" style="-fx-background-color: transparent;" styleClass="buttonHome">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="group12" />
+                     </toggleGroup>
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor>
-                  </Button>
-                  <Button fx:id="CON_button" mnemonicParsing="false" prefHeight="159.0" prefWidth="281.0" style="-fx-background-color: transparent; -fx-background-radius: 0;">
                      <graphic>
                         <ImageView fitHeight="174.0" fitWidth="307.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -88,10 +85,23 @@
                            </image>
                         </ImageView>
                      </graphic>
+                  </ToggleButton>
+                  <Pane maxHeight="114.0" prefHeight="114.0" prefWidth="324.0" />
+                  <ToggleButton fx:id="EB_button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleEB" prefHeight="193.0" prefWidth="327.0" style="-fx-background-color: transparent;" styleClass="buttonHome">
+                     <toggleGroup>
+                        <ToggleGroup fx:id="group13" />
+                     </toggleGroup>
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor>
-                  </Button>
+                     <graphic>
+                        <ImageView fitHeight="174.0" fitWidth="307.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../resources/EB_button.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                  </ToggleButton>
                </children>
             </VBox>
          </children>

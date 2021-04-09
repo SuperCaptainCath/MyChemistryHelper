@@ -9,11 +9,11 @@ import javafx.stage.Stage;
 public class Main extends Application {
 
     @Override
-    public void start(Stage stage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("periodicTable.fxml"));
+    public void start(Stage stage) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getResource("homePage.fxml"));
 
         Scene scene = new Scene(root);
-        stage.setTitle("QuickChemistry | Interactive Periodic Table");
+        stage.setTitle("Quick Chemistry | My Chemistry Homework Helper");
         stage.setScene(scene);
         stage.show();
     }
