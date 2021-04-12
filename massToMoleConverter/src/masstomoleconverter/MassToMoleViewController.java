@@ -18,6 +18,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
 /**
@@ -34,10 +35,15 @@ public class MassToMoleViewController implements Initializable {
     @FXML
     private TextField elementField;
     @FXML
-    private TextField gramsField;
-    @FXML
     private TextField AnswerField;
-
+    @FXML
+    private TextField variableField;
+    @FXML
+    private Text titleText;
+    @FXML
+    private Text variableText;
+    
+    boolean isMassToMole = true;
 
     /**
      * Initializes the controller class.
@@ -49,17 +55,30 @@ public class MassToMoleViewController implements Initializable {
 
     @FXML
     private void switchMode(ActionEvent event) throws IOException {
-        Parent root = FXMLLoader.load(getClass().getResource("MoleToMassView.fxml"));     
-        Scene scene = new Scene(root);  
         
-        Stage stage = (Stage)((Node)event.getSource()).getScene().getWindow();
-        stage.setTitle("Mole-to-Mass Converter");
-        stage.setScene(scene);
-        stage.show();
+        
+        if(isMassToMole){
+            variableField.setPromptText("Write number of moles here!");
+            titleText.setText("Mole to Mass Converter");
+            variableText.setText("Number of Moles to Convert");
+            switchButton.setText("Switch to mass-to-mole");
+            isMassToMole = false;
+            
+        } 
+        else if(!isMassToMole){
+            variableField.setPromptText("Write mass here! (in grams)");
+            titleText.setText("Mass to Mole Converter");
+            variableText.setText("Mass to Convert");
+            switchButton.setText("Switch to mole-to-mass");
+            isMassToMole = true;
+        }
+        
+        
     }
 
     @FXML
     private void convert(ActionEvent event) {
+        if(isMassToMole){
         double totalMolarMass = 0;
         
         String elementString = elementField.getText();
@@ -100,9 +119,54 @@ public class MassToMoleViewController implements Initializable {
             totalMolarMass += (elementBrowser.getMolarMass(j) * Integer.parseInt(TrueSubscripts.get(i)));            
         }
         
-        double answer = Integer.parseInt(gramsField.getText())/totalMolarMass;
+        double answer = Integer.parseInt(variableField.getText())/totalMolarMass;
         
         AnswerField.setText(Double.toString(answer));
+        } else if(!isMassToMole){
+            double totalMolarMass = 0;
+        
+        String elementString = elementField.getText();
+        String[] separatedElements;
+        String[] separatedSubscripts;
+        
+        //This separates the letters from the number, replacing the numbers with commas or the letters with commas
+        String onlyElements = elementString.replaceAll("[^A-Za-z]", ",");
+        String onlySubscripts = elementString.replaceAll("[^0-9]", ",");
+        
+        
+        ArrayList<String> TrueElements = new ArrayList<String>();
+        ArrayList<String> TrueSubscripts = new ArrayList<String>();        
+        
+        //Here, the strings are split up into a string array at every comma, so the array has empty cells that we do not want
+        separatedElements = onlyElements.split(",");
+        separatedSubscripts = onlySubscripts.split(",");
+        
+        //With the next two for loops, we make sure that only the populated cells are used so we put them into an arrayList
+        for(int i = 0; i < separatedElements.length; i++){
+            if(!separatedElements[i].equals("")){
+                TrueElements.add(separatedElements[i]);                
+            }
+        }
+        
+        for(int i = 0; i < separatedSubscripts.length; i++){
+            if(!separatedSubscripts[i].equals("")){
+                TrueSubscripts.add(separatedSubscripts[i]);                
+            }
+        }
+
+        //We compare the input element symbol to the ones in the reference text file, when they are the same we get the molar mass of the element and add it to the molar mass total
+        for(int i = 0; i < TrueElements.size(); i++){
+            int j = 0;
+            while(!TrueElements.get(i).equals(elementBrowser.getSymbol(j))){                               
+                j++;
+            }
+            totalMolarMass += (elementBrowser.getMolarMass(j) * Integer.parseInt(TrueSubscripts.get(i)));            
+        }
+        
+        double answer = Integer.parseInt(variableField.getText()) * totalMolarMass;
+        
+        AnswerField.setText(Double.toString(answer));
+        }
         
     }
 

@@ -7,14 +7,13 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Text?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="700.0" minWidth="1244.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #026670;" stylesheets="@quickChemistry.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="masstomoleconverter.MassToMoleViewController">
    <children>
-      <Text layoutX="257.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="Mass to Mole Converter" />
+      <Text fx:id="titleText" layoutX="257.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="Mass to Mole Converter" />
       <TextField fx:id="elementField" layoutX="712.0" layoutY="193.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="500.0" promptText="Write element here!" styleClass="textFieldEquation" />
-      <TextField fx:id="gramsField" layoutX="712.0" layoutY="350.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="500.0" promptText="Write mass here! (in grams)" styleClass="textFieldEquation" />
+      <TextField fx:id="variableField" layoutX="712.0" layoutY="350.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="500.0" promptText="Write mass here! (in grams)" styleClass="textFieldEquation" />
       <Text layoutX="860.0" layoutY="172.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subtitle" text="Element to Convert" />
-      <Text layoutX="872.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subtitle" text="Mass to Convert" wrappingWidth="178.2734375" />
+      <Text fx:id="variableText" layoutX="778.0" layoutY="321.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subtitle" text="Mass to Convert" textAlignment="CENTER" wrappingWidth="369.0" />
       <Button fx:id="convertButton" layoutX="848.0" layoutY="442.0" mnemonicParsing="false" onAction="#convert" prefHeight="78.0" prefWidth="229.0" text="Convert" />
       <Button fx:id="switchButton" layoutX="1063.0" layoutY="69.0" mnemonicParsing="false" onAction="#switchMode" text="Switch to mole-to-mass" />
       <TextField fx:id="AnswerField" editable="false" layoutX="712.0" layoutY="597.0" minHeight="-Infinity" minWidth="-Infinity" prefHeight="50.0" prefWidth="500.0" promptText="Answer will be displayed here" styleClass="textFieldEquation" />
