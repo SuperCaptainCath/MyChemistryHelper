@@ -3,6 +3,12 @@
  * Home Page                                                                   *
  *                                                                             *
  ******************************************************************************/
+@font-face {
+    src: url("Phosphate.ttc");
+}
+@font-face {
+    src: url("Copperplate.ttc");
+}
 .title {
     -fx-fill: #FEF9C7;
     -fx-stroke-width: 2;
