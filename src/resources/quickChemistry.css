@@ -147,6 +147,15 @@
  * Interactive Periodic Table                                                  *
  *                                                                             *
  ******************************************************************************/
+@font-face {
+    src: url("SF-Compact-Display-Regular.otf");
+}
+.elementSymbol {
+    -fx-font-family-font: "SF Compact Display";
+}
+.elementNumber {
+    -fx-font-family-font: "SF Compact Display";
+}
 .numberTable {
     -fx-family-font: "Copperplate";
     -fx-font-color: #FEF9C7;

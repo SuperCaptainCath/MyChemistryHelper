@@ -330,7 +330,7 @@
                         <Insets right="15.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="H" textAlignment="CENTER" wrappingWidth="47.408897399902344" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="H" textAlignment="CENTER" wrappingWidth="47.408897399902344" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -338,7 +338,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Li" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Li" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -346,7 +346,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Na" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Na" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -354,7 +354,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="K" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="K" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -362,7 +362,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Rb" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Rb" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -370,7 +370,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Cs" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Cs" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -378,7 +378,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Fr" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Fr" textAlignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -386,7 +386,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Be" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Be" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -394,7 +394,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Mg" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Mg" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -402,7 +402,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ca" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ca" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -410,7 +410,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Sr" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Sr" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -418,7 +418,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ba" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ba" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -426,7 +426,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ra" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ra" textAlignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -434,7 +434,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Sc" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Sc" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -442,7 +442,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Y" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Y" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -450,17 +450,17 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="57-71" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="6">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="57-71" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="6">
                      <GridPane.margin>
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="89-103" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="7">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="89-103" textAlignment="CENTER" GridPane.columnIndex="3" GridPane.rowIndex="7">
                      <GridPane.margin>
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ti" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ti" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -468,7 +468,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Zr" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Zr" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -476,7 +476,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Hf" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Hf" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -484,7 +484,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Rf" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Rf" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -492,7 +492,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="V" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="V" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -500,7 +500,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Nb" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Nb" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -508,7 +508,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ta" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ta" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -516,7 +516,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Db" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Db" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -524,7 +524,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Cr" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Cr" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -532,7 +532,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Mo" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Mo" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -540,7 +540,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="W" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="W" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -548,7 +548,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Sg" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Sg" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -556,7 +556,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Mn" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Mn" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -564,7 +564,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Tc" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Tc" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -572,7 +572,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Re" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Re" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -580,7 +580,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Bh" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Bh" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -588,7 +588,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Fe" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Fe" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -596,7 +596,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ru" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ru" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -604,7 +604,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Os" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Os" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -612,7 +612,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Hs" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Hs" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -620,7 +620,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Co" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Co" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -628,7 +628,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Rh" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Rh" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -636,7 +636,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ir" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ir" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -644,7 +644,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Mt" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Mt" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -652,7 +652,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ni" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ni" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -660,7 +660,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Pd" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Pd" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -668,7 +668,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Pt" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Pt" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -676,7 +676,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ds" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ds" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -684,7 +684,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Cu" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Cu" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -692,7 +692,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ag" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ag" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -700,7 +700,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Au" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Au" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -708,7 +708,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Rg" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Rg" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -716,7 +716,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Zn" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Zn" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -724,7 +724,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Cd" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Cd" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -732,7 +732,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Hg" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Hg" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -740,7 +740,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Cn" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Cn" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -748,7 +748,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="B" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="B" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -756,7 +756,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Al" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Al" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -764,7 +764,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ga" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ga" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -772,7 +772,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="In" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="In" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -780,7 +780,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ti" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ti" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -788,7 +788,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Nh" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Nh" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -796,7 +796,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="C" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="C" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -804,7 +804,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Si" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Si" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -812,7 +812,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ge" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ge" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -820,7 +820,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Sn" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Sn" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -828,7 +828,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Pb" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Pb" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -836,7 +836,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Fl" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Fl" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -844,7 +844,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="N" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="N" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -852,7 +852,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="P" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="P" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -860,7 +860,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="As" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="As" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -868,7 +868,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Sb" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Sb" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -876,7 +876,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Bi" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Bi" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -884,7 +884,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Mc" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Mc" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -892,7 +892,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="O" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="O" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -900,7 +900,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="S" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="S" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -908,7 +908,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Se" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Se" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -916,7 +916,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Te" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Te" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -924,7 +924,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Po" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Po" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -932,7 +932,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Lv" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Lv" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -940,7 +940,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="F" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="F" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -948,7 +948,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Cl" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Cl" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -956,7 +956,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Br" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Br" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -964,7 +964,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="I" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="I" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -972,7 +972,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="At" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="At" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -980,7 +980,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ts" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ts" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -988,7 +988,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="He" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="He" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="1" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -996,7 +996,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ne" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ne" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="2" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1004,7 +1004,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ar" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ar" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="3" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1012,7 +1012,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Kr" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Kr" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="4" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1020,7 +1020,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Xe" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Xe" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="5" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1028,7 +1028,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Rn" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Rn" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="6" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1036,7 +1036,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Og" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Og" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="7" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1044,7 +1044,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="La" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="La" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1052,7 +1052,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ac" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ac" textAlignment="CENTER" GridPane.columnIndex="4" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1060,7 +1060,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ce" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ce" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1068,7 +1068,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Th" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Th" textAlignment="CENTER" GridPane.columnIndex="5" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1076,7 +1076,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Pr" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Pr" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1084,7 +1084,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Pa" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Pa" textAlignment="CENTER" GridPane.columnIndex="6" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1092,7 +1092,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Nd" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Nd" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1100,7 +1100,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="U" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="U" textAlignment="CENTER" GridPane.columnIndex="7" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1108,7 +1108,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Pm" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Pm" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1116,7 +1116,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Np" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Np" textAlignment="CENTER" GridPane.columnIndex="8" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1124,7 +1124,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Sm" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Sm" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1132,7 +1132,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Pu" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Pu" textAlignment="CENTER" GridPane.columnIndex="9" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1140,7 +1140,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Eu" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Eu" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1148,7 +1148,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Am" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Am" textAlignment="CENTER" GridPane.columnIndex="10" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1156,7 +1156,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Gd" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Gd" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1164,7 +1164,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Cm" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Cm" textAlignment="CENTER" GridPane.columnIndex="11" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1172,7 +1172,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Tb" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Tb" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1180,7 +1180,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Bk" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Bk" textAlignment="CENTER" GridPane.columnIndex="12" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1188,7 +1188,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Dy" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Dy" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1196,7 +1196,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Cf" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Cf" textAlignment="CENTER" GridPane.columnIndex="13" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1204,7 +1204,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Ho" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Ho" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1212,7 +1212,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Es" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Es" textAlignment="CENTER" GridPane.columnIndex="14" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1220,7 +1220,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Er" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Er" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1228,7 +1228,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Fm" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Fm" textAlignment="CENTER" GridPane.columnIndex="15" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1236,7 +1236,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Tm" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Tm" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1244,7 +1244,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Md" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Md" textAlignment="CENTER" GridPane.columnIndex="16" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1252,7 +1252,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Yb" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Yb" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1260,7 +1260,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Lu" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Lu" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="9" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1268,7 +1268,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="No" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="No" textAlignment="CENTER" GridPane.columnIndex="17" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1276,7 +1276,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" text="Lr" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" style="-fx-fill: #FEF9C7;" styleClass="elementSymbol" text="Lr" textAlignment="CENTER" GridPane.columnIndex="18" GridPane.rowIndex="10" GridPane.valignment="BOTTOM">
                      <font>
                         <Font size="32.0" />
                      </font>
@@ -1284,7 +1284,7 @@
                         <Insets bottom="5.0" />
                      </GridPane.margin>
                   </Text>
-                  <TextField fx:id="h1" accessibleRole="TEXT_AREA" alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" text="1" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                  <TextField fx:id="h1" accessibleRole="TEXT_AREA" alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="1" GridPane.columnIndex="1" GridPane.rowIndex="1">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1292,7 +1292,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField fx:id="he2" alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" text="2" GridPane.columnIndex="18" GridPane.rowIndex="1">
+                  <TextField fx:id="he2" alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="2" GridPane.columnIndex="18" GridPane.rowIndex="1">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1300,7 +1300,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField fx:id="li3" alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" text="3" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                  <TextField fx:id="li3" alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="3" GridPane.columnIndex="1" GridPane.rowIndex="2">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1308,7 +1308,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField fx:id="be4" alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" text="4" GridPane.columnIndex="2" GridPane.rowIndex="2">
+                  <TextField fx:id="be4" alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="4" GridPane.columnIndex="2" GridPane.rowIndex="2">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1319,7 +1319,7 @@
                         <Cursor fx:constant="HAND" />
                      </cursor>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" text="11" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="11" GridPane.columnIndex="1" GridPane.rowIndex="3">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1327,7 +1327,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" text="12" GridPane.columnIndex="2" GridPane.rowIndex="3">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="12" GridPane.columnIndex="2" GridPane.rowIndex="3">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1335,7 +1335,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" text="19" GridPane.columnIndex="1" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="19" GridPane.columnIndex="1" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1343,7 +1343,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" text="37" GridPane.columnIndex="1" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="37" GridPane.columnIndex="1" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1351,7 +1351,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" text="55" GridPane.columnIndex="1" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="55" GridPane.columnIndex="1" GridPane.rowIndex="6">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1359,7 +1359,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" text="87" GridPane.columnIndex="1" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 000000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="87" GridPane.columnIndex="1" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1367,7 +1367,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="20" GridPane.columnIndex="2" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="20" GridPane.columnIndex="2" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1375,7 +1375,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="21" GridPane.columnIndex="3" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="21" GridPane.columnIndex="3" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1383,7 +1383,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="22" GridPane.columnIndex="4" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="22" GridPane.columnIndex="4" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1391,7 +1391,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="23" GridPane.columnIndex="5" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="23" GridPane.columnIndex="5" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1399,7 +1399,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="24" GridPane.columnIndex="6" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="24" GridPane.columnIndex="6" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1407,7 +1407,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="25" GridPane.columnIndex="7" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="25" GridPane.columnIndex="7" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1415,7 +1415,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="26" GridPane.columnIndex="8" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="26" GridPane.columnIndex="8" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1423,7 +1423,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="27" GridPane.columnIndex="9" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="27" GridPane.columnIndex="9" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1431,7 +1431,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="28" GridPane.columnIndex="10" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="28" GridPane.columnIndex="10" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1439,7 +1439,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="29" GridPane.columnIndex="11" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="29" GridPane.columnIndex="11" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1447,7 +1447,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="30" GridPane.columnIndex="12" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="30" GridPane.columnIndex="12" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1455,7 +1455,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="31" GridPane.columnIndex="13" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="31" GridPane.columnIndex="13" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1463,7 +1463,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="32" GridPane.columnIndex="14" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="32" GridPane.columnIndex="14" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1471,7 +1471,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="33" GridPane.columnIndex="15" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="33" GridPane.columnIndex="15" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1479,7 +1479,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="34" GridPane.columnIndex="16" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="34" GridPane.columnIndex="16" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1487,7 +1487,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="35" GridPane.columnIndex="17" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="35" GridPane.columnIndex="17" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1495,7 +1495,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="36" GridPane.columnIndex="18" GridPane.rowIndex="4">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="36" GridPane.columnIndex="18" GridPane.rowIndex="4">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1503,7 +1503,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="38" GridPane.columnIndex="2" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="38" GridPane.columnIndex="2" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1511,7 +1511,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="39" GridPane.columnIndex="3" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="39" GridPane.columnIndex="3" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1519,7 +1519,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="40" GridPane.columnIndex="4" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="40" GridPane.columnIndex="4" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1527,7 +1527,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="41" GridPane.columnIndex="5" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="41" GridPane.columnIndex="5" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1535,7 +1535,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="42" GridPane.columnIndex="6" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="42" GridPane.columnIndex="6" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1543,7 +1543,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="43" GridPane.columnIndex="7" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="43" GridPane.columnIndex="7" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1551,7 +1551,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="44" GridPane.columnIndex="8" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="44" GridPane.columnIndex="8" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1559,7 +1559,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="45" GridPane.columnIndex="9" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="45" GridPane.columnIndex="9" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1567,7 +1567,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="46" GridPane.columnIndex="10" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="46" GridPane.columnIndex="10" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1575,7 +1575,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="47" GridPane.columnIndex="11" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="47" GridPane.columnIndex="11" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1583,7 +1583,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="48" GridPane.columnIndex="12" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="48" GridPane.columnIndex="12" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1591,7 +1591,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="49" GridPane.columnIndex="13" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="49" GridPane.columnIndex="13" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1599,7 +1599,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="50" GridPane.columnIndex="14" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="50" GridPane.columnIndex="14" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1607,7 +1607,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="51" GridPane.columnIndex="15" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="51" GridPane.columnIndex="15" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1615,7 +1615,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="52" GridPane.columnIndex="16" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="52" GridPane.columnIndex="16" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1623,7 +1623,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="53" GridPane.columnIndex="17" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="53" GridPane.columnIndex="17" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1631,7 +1631,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="54" GridPane.columnIndex="18" GridPane.rowIndex="5">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="54" GridPane.columnIndex="18" GridPane.rowIndex="5">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1639,7 +1639,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="metalloid" text="5" GridPane.columnIndex="13" GridPane.rowIndex="2">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="5" GridPane.columnIndex="13" GridPane.rowIndex="2">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1647,7 +1647,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="6" GridPane.columnIndex="14" GridPane.rowIndex="2">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="6" GridPane.columnIndex="14" GridPane.rowIndex="2">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1655,7 +1655,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="7" GridPane.columnIndex="15" GridPane.rowIndex="2">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="7" GridPane.columnIndex="15" GridPane.rowIndex="2">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1663,7 +1663,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="8" GridPane.columnIndex="16" GridPane.rowIndex="2">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="8" GridPane.columnIndex="16" GridPane.rowIndex="2">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1671,7 +1671,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="9" GridPane.columnIndex="17" GridPane.rowIndex="2">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="9" GridPane.columnIndex="17" GridPane.rowIndex="2">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1679,7 +1679,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="10" GridPane.columnIndex="18" GridPane.rowIndex="2">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="10" GridPane.columnIndex="18" GridPane.rowIndex="2">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1687,7 +1687,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="13" GridPane.columnIndex="13" GridPane.rowIndex="3">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="13" GridPane.columnIndex="13" GridPane.rowIndex="3">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1695,7 +1695,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="14" GridPane.columnIndex="14" GridPane.rowIndex="3">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="14" GridPane.columnIndex="14" GridPane.rowIndex="3">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1703,7 +1703,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="15" GridPane.columnIndex="15" GridPane.rowIndex="3">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="15" GridPane.columnIndex="15" GridPane.rowIndex="3">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1711,7 +1711,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="16" GridPane.columnIndex="16" GridPane.rowIndex="3">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="16" GridPane.columnIndex="16" GridPane.rowIndex="3">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1719,7 +1719,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="17" GridPane.columnIndex="17" GridPane.rowIndex="3">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="17" GridPane.columnIndex="17" GridPane.rowIndex="3">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1727,7 +1727,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="18" GridPane.columnIndex="18" GridPane.rowIndex="3">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="18" GridPane.columnIndex="18" GridPane.rowIndex="3">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1735,7 +1735,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="56" GridPane.columnIndex="2" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="56" GridPane.columnIndex="2" GridPane.rowIndex="6">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1743,7 +1743,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="88" GridPane.columnIndex="2" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="88" GridPane.columnIndex="2" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1751,7 +1751,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="72" GridPane.columnIndex="4" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="72" GridPane.columnIndex="4" GridPane.rowIndex="6">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1759,15 +1759,15 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="73" GridPane.columnIndex="5" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="73" GridPane.columnIndex="5" GridPane.rowIndex="6">
                      <font>
-                        <Font size="14.0" />
+                        <Font name="SF Compact Display Regular" size="14.0" />
                      </font>
                      <GridPane.margin>
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="74" GridPane.columnIndex="6" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="74" GridPane.columnIndex="6" GridPane.rowIndex="6">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1775,7 +1775,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="75" GridPane.columnIndex="7" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="75" GridPane.columnIndex="7" GridPane.rowIndex="6">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1783,7 +1783,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="76" GridPane.columnIndex="8" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="76" GridPane.columnIndex="8" GridPane.rowIndex="6">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1791,7 +1791,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="77" GridPane.columnIndex="9" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="77" GridPane.columnIndex="9" GridPane.rowIndex="6">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1799,7 +1799,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="78" GridPane.columnIndex="10" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="78" GridPane.columnIndex="10" GridPane.rowIndex="6">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1807,7 +1807,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="79" GridPane.columnIndex="11" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="79" GridPane.columnIndex="11" GridPane.rowIndex="6">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1815,7 +1815,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="80" GridPane.columnIndex="12" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="80" GridPane.columnIndex="12" GridPane.rowIndex="6">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1823,7 +1823,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="81" GridPane.columnIndex="13" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="81" GridPane.columnIndex="13" GridPane.rowIndex="6">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1831,7 +1831,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="82" GridPane.columnIndex="14" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="82" GridPane.columnIndex="14" GridPane.rowIndex="6">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1839,7 +1839,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="83" GridPane.columnIndex="15" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="83" GridPane.columnIndex="15" GridPane.rowIndex="6">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1847,7 +1847,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="84" GridPane.columnIndex="16" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="84" GridPane.columnIndex="16" GridPane.rowIndex="6">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1855,7 +1855,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="85" GridPane.columnIndex="17" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="85" GridPane.columnIndex="17" GridPane.rowIndex="6">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1863,7 +1863,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="86" GridPane.columnIndex="18" GridPane.rowIndex="6">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="86" GridPane.columnIndex="18" GridPane.rowIndex="6">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1871,7 +1871,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="104" GridPane.columnIndex="4" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="104" GridPane.columnIndex="4" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1879,7 +1879,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" onMouseClicked="#clickedDb105" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="105" GridPane.columnIndex="5" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" onMouseClicked="#clickedDb105" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="105" GridPane.columnIndex="5" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1887,7 +1887,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="106" GridPane.columnIndex="6" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="106" GridPane.columnIndex="6" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1895,7 +1895,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="107" GridPane.columnIndex="7" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="107" GridPane.columnIndex="7" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1903,7 +1903,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="108" GridPane.columnIndex="8" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="108" GridPane.columnIndex="8" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1911,7 +1911,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="109" GridPane.columnIndex="9" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="109" GridPane.columnIndex="9" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1919,7 +1919,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="110" GridPane.columnIndex="10" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="110" GridPane.columnIndex="10" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1927,7 +1927,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="111" GridPane.columnIndex="11" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="111" GridPane.columnIndex="11" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1935,7 +1935,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="112" GridPane.columnIndex="12" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="112" GridPane.columnIndex="12" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1943,7 +1943,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="113" GridPane.columnIndex="13" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="113" GridPane.columnIndex="13" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1951,7 +1951,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="114" GridPane.columnIndex="14" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="114" GridPane.columnIndex="14" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1959,7 +1959,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="115" GridPane.columnIndex="15" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="115" GridPane.columnIndex="15" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1967,7 +1967,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="116" GridPane.columnIndex="16" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="116" GridPane.columnIndex="16" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1975,7 +1975,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="117" GridPane.columnIndex="17" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="117" GridPane.columnIndex="17" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1983,7 +1983,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="118" GridPane.columnIndex="18" GridPane.rowIndex="7">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="118" GridPane.columnIndex="18" GridPane.rowIndex="7">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1991,7 +1991,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="57" GridPane.columnIndex="4" GridPane.rowIndex="9">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="57" GridPane.columnIndex="4" GridPane.rowIndex="9">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -1999,7 +1999,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="58" GridPane.columnIndex="5" GridPane.rowIndex="9">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="58" GridPane.columnIndex="5" GridPane.rowIndex="9">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2007,7 +2007,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="59" GridPane.columnIndex="6" GridPane.rowIndex="9">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="59" GridPane.columnIndex="6" GridPane.rowIndex="9">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2015,7 +2015,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="60" GridPane.columnIndex="7" GridPane.rowIndex="9">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="60" GridPane.columnIndex="7" GridPane.rowIndex="9">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2023,7 +2023,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="61" GridPane.columnIndex="8" GridPane.rowIndex="9">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="61" GridPane.columnIndex="8" GridPane.rowIndex="9">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2031,7 +2031,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="62" GridPane.columnIndex="9" GridPane.rowIndex="9">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="62" GridPane.columnIndex="9" GridPane.rowIndex="9">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2039,7 +2039,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="63" GridPane.columnIndex="10" GridPane.rowIndex="9">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="63" GridPane.columnIndex="10" GridPane.rowIndex="9">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2047,7 +2047,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="64" GridPane.columnIndex="11" GridPane.rowIndex="9">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="64" GridPane.columnIndex="11" GridPane.rowIndex="9">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2055,7 +2055,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="65" GridPane.columnIndex="12" GridPane.rowIndex="9">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="65" GridPane.columnIndex="12" GridPane.rowIndex="9">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2063,7 +2063,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="66" GridPane.columnIndex="13" GridPane.rowIndex="9">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="66" GridPane.columnIndex="13" GridPane.rowIndex="9">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2071,7 +2071,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="67" GridPane.columnIndex="14" GridPane.rowIndex="9">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="67" GridPane.columnIndex="14" GridPane.rowIndex="9">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2079,7 +2079,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="68" GridPane.columnIndex="15" GridPane.rowIndex="9">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="68" GridPane.columnIndex="15" GridPane.rowIndex="9">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2087,7 +2087,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="69" GridPane.columnIndex="16" GridPane.rowIndex="9">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="69" GridPane.columnIndex="16" GridPane.rowIndex="9">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2095,7 +2095,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="70" GridPane.columnIndex="17" GridPane.rowIndex="9">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="70" GridPane.columnIndex="17" GridPane.rowIndex="9">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2103,7 +2103,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="71" GridPane.columnIndex="18" GridPane.rowIndex="9">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="71" GridPane.columnIndex="18" GridPane.rowIndex="9">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2111,7 +2111,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="89" GridPane.columnIndex="4" GridPane.rowIndex="10">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="89" GridPane.columnIndex="4" GridPane.rowIndex="10">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2119,7 +2119,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="90" GridPane.columnIndex="5" GridPane.rowIndex="10">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="90" GridPane.columnIndex="5" GridPane.rowIndex="10">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2127,7 +2127,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="91" GridPane.columnIndex="6" GridPane.rowIndex="10">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="91" GridPane.columnIndex="6" GridPane.rowIndex="10">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2135,7 +2135,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="92" GridPane.columnIndex="7" GridPane.rowIndex="10">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="92" GridPane.columnIndex="7" GridPane.rowIndex="10">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2143,7 +2143,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="93" GridPane.columnIndex="8" GridPane.rowIndex="10">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="93" GridPane.columnIndex="8" GridPane.rowIndex="10">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2151,7 +2151,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="94" GridPane.columnIndex="9" GridPane.rowIndex="10">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="94" GridPane.columnIndex="9" GridPane.rowIndex="10">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2159,7 +2159,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="95" GridPane.columnIndex="10" GridPane.rowIndex="10">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="95" GridPane.columnIndex="10" GridPane.rowIndex="10">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2167,7 +2167,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="96" GridPane.columnIndex="11" GridPane.rowIndex="10">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="96" GridPane.columnIndex="11" GridPane.rowIndex="10">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2175,7 +2175,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="97" GridPane.columnIndex="12" GridPane.rowIndex="10">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="97" GridPane.columnIndex="12" GridPane.rowIndex="10">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2183,7 +2183,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="98" GridPane.columnIndex="13" GridPane.rowIndex="10">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="98" GridPane.columnIndex="13" GridPane.rowIndex="10">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2191,7 +2191,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="99" GridPane.columnIndex="14" GridPane.rowIndex="10">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="99" GridPane.columnIndex="14" GridPane.rowIndex="10">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2199,7 +2199,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="100" GridPane.columnIndex="15" GridPane.rowIndex="10">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="100" GridPane.columnIndex="15" GridPane.rowIndex="10">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2207,7 +2207,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="101" GridPane.columnIndex="16" GridPane.rowIndex="10">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="101" GridPane.columnIndex="16" GridPane.rowIndex="10">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2215,7 +2215,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="102" GridPane.columnIndex="17" GridPane.rowIndex="10">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="102" GridPane.columnIndex="17" GridPane.rowIndex="10">
                      <font>
                         <Font size="14.0" />
                      </font>
@@ -2223,7 +2223,7 @@
                         <Insets top="1.5" />
                      </GridPane.margin>
                   </TextField>
-                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" text="103" GridPane.columnIndex="18" GridPane.rowIndex="10">
+                  <TextField alignment="TOP_CENTER" editable="false" prefHeight="83.0" prefWidth="82.0" style="-fx-background-color: 00000; -fx-text-fill: #FEF9C7;" styleClass="elementNumber" text="103" GridPane.columnIndex="18" GridPane.rowIndex="10">
                      <font>
                         <Font size="14.0" />
                      </font>
