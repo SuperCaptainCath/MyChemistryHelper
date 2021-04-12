@@ -6,6 +6,7 @@
 package masstomoleconverter;
 
 import java.io.IOException;
+import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
@@ -78,26 +79,116 @@ public class MassToMoleViewController implements Initializable {
 
     @FXML
     private void convert(ActionEvent event) {
+        try{
         if(isMassToMole){
         double totalMolarMass = 0;
         
         String elementString = elementField.getText();
         String[] separatedElements;
+        int numOfElements = 0;
         String[] separatedSubscripts;
         
         //This separates the letters from the number, replacing the numbers with commas or the letters with commas
         String onlyElements = elementString.replaceAll("[^A-Za-z]", ",");
-        String onlySubscripts = elementString.replaceAll("[^0-9]", ",");
         
+        String onlyElementCapitals = onlyElements.replaceAll("[^A-Z]", ",");
+        char[] numOfElementsFinder = onlyElementCapitals.toCharArray();
+        for(int i = 0; i < numOfElementsFinder.length; i++){
+            if(numOfElementsFinder[i] == ','){
+                
+            } else {
+                numOfElements++;
+            }
+        }
+        
+        separatedElements = new String[numOfElements];
+        char[] elementsChar = onlyElements.toCharArray();
+        int adjuster = 0;
+        for(int i = 0; i < elementsChar.length ; i++){
+            switch (elementsChar[i]) {
+                case 'A':
+                case 'B':
+                case 'C':
+                case 'D':
+                case 'E':
+                case 'F':
+                case 'G':
+                case 'H':
+                case 'I':
+                case 'J':
+                case 'K':
+                case 'L':
+                case 'M':
+                case 'N':
+                case 'O':
+                case 'P':
+                case 'Q':
+                case 'R':
+                case 'S':
+                case 'T':
+                case 'U':
+                case 'V':
+                case 'W':
+                case 'X':
+                case 'Y':
+                case 'Z':
+                    separatedElements[i-adjuster] = Character.toString(elementsChar[i]);
+                    break;
+                case 'a':
+                case 'b':
+                case 'c':
+                case 'd':
+                case 'e':
+                case 'f':
+                case 'g':
+                case 'h':
+                case 'i':
+                case 'j':
+                case 'k':
+                case 'l':
+                case 'm':
+                case 'n':
+                case 'o':
+                case 'p':
+                case 'q':
+                case 'r':
+                case 's':
+                case 't':
+                case 'u':
+                case 'v':
+                case 'w':
+                case 'x':
+                case 'y':
+                case 'z':
+                    separatedElements[i-1-adjuster] = separatedElements[i-1-adjuster] + Character.toString(elementsChar[i]);
+                    adjuster++;
+                    break;
+                default:
+                    adjuster++;
+                    break;
+            }
+        }
+        
+        
+        
+       
+        
+        String onlySubscripts = elementString.replaceAll("[^0-9a-z]", ",");
+        onlySubscripts = onlySubscripts.replaceAll("[^1-9,]", "0");
         
         ArrayList<String> TrueElements = new ArrayList<String>();
         ArrayList<String> TrueSubscripts = new ArrayList<String>();        
         
-        //Here, the strings are split up into a string array at every comma, so the array has empty cells that we do not want
-        separatedElements = onlyElements.split(",");
+        //Here, the strings are split up into a string array at every comma, so the array has empty cells that we do not want       
         separatedSubscripts = onlySubscripts.split(",");
         
-        //With the next two for loops, we make sure that only the populated cells are used so we put them into an arrayList
+        if(separatedSubscripts.length==0){
+            separatedSubscripts = new String[separatedElements.length];
+            for(int i = 0; i < separatedSubscripts.length; i++){
+                separatedSubscripts[i] = "1";               
+            }
+        }
+        
         for(int i = 0; i < separatedElements.length; i++){
             if(!separatedElements[i].equals("")){
                 TrueElements.add(separatedElements[i]);                
@@ -105,12 +196,22 @@ public class MassToMoleViewController implements Initializable {
         }
         
         for(int i = 0; i < separatedSubscripts.length; i++){
-            if(!separatedSubscripts[i].equals("")){
+            if(separatedSubscripts[i].equals("")){
+                TrueSubscripts.add("1");                
+            } else if(!separatedSubscripts[i].equals("")){
                 TrueSubscripts.add(separatedSubscripts[i]);                
             }
         }
+        TrueSubscripts.remove(0);
+        
+        if(TrueSubscripts.size() < separatedElements.length){
+            TrueSubscripts.add("1");
+        }
+        
+       
 
         //We compare the input element symbol to the ones in the reference text file, when they are the same we get the molar mass of the element and add it to the molar mass total
+        
         for(int i = 0; i < TrueElements.size(); i++){
             int j = 0;
             while(!TrueElements.get(i).equals(elementBrowser.getSymbol(j))){                               
@@ -119,29 +220,127 @@ public class MassToMoleViewController implements Initializable {
             totalMolarMass += (elementBrowser.getMolarMass(j) * Integer.parseInt(TrueSubscripts.get(i)));            
         }
         
-        double answer = Integer.parseInt(variableField.getText())/totalMolarMass;
+        double answer = Integer.parseInt(variableField.getText()) / totalMolarMass;
         
-        AnswerField.setText(Double.toString(answer));
-        } else if(!isMassToMole){
+        AnswerField.setText(Double.toString(answer) + " moles");
+        
+        }
+        
+       
+        
+        
+        
+        
+        
+        
+        else if(!isMassToMole){
             double totalMolarMass = 0;
-        
         String elementString = elementField.getText();
         String[] separatedElements;
+        int numOfElements = 0;
         String[] separatedSubscripts;
         
         //This separates the letters from the number, replacing the numbers with commas or the letters with commas
         String onlyElements = elementString.replaceAll("[^A-Za-z]", ",");
-        String onlySubscripts = elementString.replaceAll("[^0-9]", ",");
         
+        String onlyElementCapitals = onlyElements.replaceAll("[^A-Z]", ",");
+        char[] numOfElementsFinder = onlyElementCapitals.toCharArray();
+        for(int i = 0; i < numOfElementsFinder.length; i++){
+            if(numOfElementsFinder[i] == ','){
+                
+            } else {
+                numOfElements++;
+            }
+        }
+        
+        separatedElements = new String[numOfElements];
+        char[] elementsChar = onlyElements.toCharArray();
+        int adjuster = 0;
+        for(int i = 0; i < elementsChar.length ; i++){
+            switch (elementsChar[i]) {
+                case 'A':
+                case 'B':
+                case 'C':
+                case 'D':
+                case 'E':
+                case 'F':
+                case 'G':
+                case 'H':
+                case 'I':
+                case 'J':
+                case 'K':
+                case 'L':
+                case 'M':
+                case 'N':
+                case 'O':
+                case 'P':
+                case 'Q':
+                case 'R':
+                case 'S':
+                case 'T':
+                case 'U':
+                case 'V':
+                case 'W':
+                case 'X':
+                case 'Y':
+                case 'Z':
+                    separatedElements[i-adjuster] = Character.toString(elementsChar[i]);
+                    break;
+                case 'a':
+                case 'b':
+                case 'c':
+                case 'd':
+                case 'e':
+                case 'f':
+                case 'g':
+                case 'h':
+                case 'i':
+                case 'j':
+                case 'k':
+                case 'l':
+                case 'm':
+                case 'n':
+                case 'o':
+                case 'p':
+                case 'q':
+                case 'r':
+                case 's':
+                case 't':
+                case 'u':
+                case 'v':
+                case 'w':
+                case 'x':
+                case 'y':
+                case 'z':
+                    separatedElements[i-1-adjuster] = separatedElements[i-1-adjuster] + Character.toString(elementsChar[i]);
+                    adjuster++;
+                    break;
+                default:
+                    adjuster++;
+                    break;
+            }
+        }
+        
+        
+        
+       
+        
+        String onlySubscripts = elementString.replaceAll("[^0-9a-z]", ",");
+        onlySubscripts = onlySubscripts.replaceAll("[^1-9,]", "0");
         
         ArrayList<String> TrueElements = new ArrayList<String>();
         ArrayList<String> TrueSubscripts = new ArrayList<String>();        
         
-        //Here, the strings are split up into a string array at every comma, so the array has empty cells that we do not want
-        separatedElements = onlyElements.split(",");
+        //Here, the strings are split up into a string array at every comma, so the array has empty cells that we do not want       
         separatedSubscripts = onlySubscripts.split(",");
         
-        //With the next two for loops, we make sure that only the populated cells are used so we put them into an arrayList
+        if(separatedSubscripts.length==0){
+            separatedSubscripts = new String[separatedElements.length];
+            for(int i = 0; i < separatedSubscripts.length; i++){
+                separatedSubscripts[i] = "1";               
+            }
+        }
+        
         for(int i = 0; i < separatedElements.length; i++){
             if(!separatedElements[i].equals("")){
                 TrueElements.add(separatedElements[i]);                
@@ -149,11 +348,18 @@ public class MassToMoleViewController implements Initializable {
         }
         
         for(int i = 0; i < separatedSubscripts.length; i++){
-            if(!separatedSubscripts[i].equals("")){
+            if(separatedSubscripts[i].equals("")){
+                TrueSubscripts.add("1");                
+            } else if(!separatedSubscripts[i].equals("")){
                 TrueSubscripts.add(separatedSubscripts[i]);                
             }
         }
-
+        TrueSubscripts.remove(0);
+        
+        if(TrueSubscripts.size() < separatedElements.length){
+            TrueSubscripts.add("1");
+        }
+        
         //We compare the input element symbol to the ones in the reference text file, when they are the same we get the molar mass of the element and add it to the molar mass total
         for(int i = 0; i < TrueElements.size(); i++){
             int j = 0;
@@ -165,10 +371,15 @@ public class MassToMoleViewController implements Initializable {
         
         double answer = Integer.parseInt(variableField.getText()) * totalMolarMass;
         
-        AnswerField.setText(Double.toString(answer));
+        AnswerField.setText(Double.toString(answer) + " grams");
         }
+        
+        } catch(Exception e){
+            AnswerField.setText("One of the values you entered is invalid!");
+        }
+    }
         
     }
 
     
-}
+
