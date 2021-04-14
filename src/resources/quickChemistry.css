@@ -145,18 +145,18 @@
     src: url("SF-Compact-Display-Regular.otf");
 }
 .elementSymbol {
-    -fx-font-family-font: "SF Compact Display";
+    -fx-font-family: "SF Compact Display";
 }
 .elementNumber {
-    -fx-font-family-font: "SF Compact Display";
+    -fx-font-family: "SF Compact Display";
 }
 .numberTable {
-    -fx-family-font: "Copperplate";
+    -fx-font-family: "Copperplate";
     -fx-font-color: #FEF9C7;
     -fx-font-size: 20;
 }
 .romanTable {
-    -fx-family-font: "Copperplate";
+    -fx-font-family: "Copperplate";
     -fx-font-color: #FEF9C7;
 }
 .nobleGas, .halogen, .nonmetal, .metalloid, .basicmetal, .transitionmetal, .alkalineearth, .alkalimetal, .lanthanide, .actinide{
