@@ -32,10 +32,10 @@ public void handleIPT (ActionEvent event) {
 
 public void handleCON (ActionEvent event) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource(""));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("converter.fxml"));
             Stage stage = (Stage) CON_button.getScene().getWindow();
             Scene scene = new Scene(loader.load());
-            stage.setTitle("Quick Chemistry | Mass-to-Mole Converter");
+            stage.setTitle("Quick Chemistry | Converter");
             stage.setScene(scene);
         }catch (IOException io){
             io.printStackTrace();

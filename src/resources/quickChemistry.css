@@ -134,13 +134,7 @@
 .buttonBalance:hover {
     -fx-opacity: 75%;
 }
-.buttonBalance:focused {
-    -fx-opacity: 75%;
-}
 
-.buttonBalance:armed {
-    -fx-opacity: 75%;
-}
 
 /*******************************************************************************
  *                                                                             *
