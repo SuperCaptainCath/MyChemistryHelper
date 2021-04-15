@@ -29,14 +29,8 @@
     -fx-border-color: #9FEDD7;
     -fx-border-width: 10;
 }
-/*******************************************************************************
- *                                                                             *
- * Equation Balancer                                                           *
- *                                                                             *
- ******************************************************************************/
-
-.textFieldEquation {
-    -fx-font-family: "Copperplate";
+.textFieldConv {
+    -fx-font-family: "SF Compact Display";
     -fx-font-size: 24;
     -fx-text-fill: white;
     -fx-prompt-text-fill: #026670;
@@ -45,6 +39,83 @@
     -fx-background-color: #9FEDD7;
     -fx-cursor: text;
 }
+/*******************************************************************************
+ *                                                                             *
+ * Equation Balancer                                                           *
+ *                                                                             *
+ ******************************************************************************/
+
+.textFieldEquation {
+    -fx-font-family: "SF Compact Display";
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-prompt-text-fill: #026670;
+    -fx-stroke: WHITE;
+    -fx-stroke-width: 20;
+    -fx-background-color: #9FEDD7;
+    -fx-cursor: text;
+}
+.textAreaEquation {
+    -fx-font-family: "SF Compact Display";
+    -fx-font-size: 20;
+    -fx-text-fill: white;
+    -fx-stroke: WHITE;
+    -fx-stroke-width: 20;
+    -fx-background-color: #9FEDD7;
+    -fx-cursor: text;
+    -fx-prompt-text-fill: #026670;
+    -fx-border-color: transparent;
+}
+
+.text-area > .scroll-pane {
+    -fx-background-color: #9FEDD7;
+}
+
+.text-area .content {
+    -fx-cursor: text;
+    -fx-background-color: #9FEDD7;
+}
+
+.scroll-bar:horizontal{
+    -fx-background-color:transparent;
+}
+/* The increment and decrement button CSS class of scrollbar */
+.increment-button,.decrement-button {
+    -fx-background-color: transparent;
+    -fx-background-radius: 2em;
+}
+/* The main scrollbar **track** CSS class  */
+.scroll-bar:horizontal .track{
+    -fx-background-color: transparent;
+    -fx-background-radius: 0em;
+    -fx-border-color: #9FEDD7;
+}
+/* The main scrollbar **thumb** CSS class which we drag every time (movable) */
+.scroll-bar:horizontal .thumb {
+    -fx-background-color:  #026670;
+    -fx-background-insets: 0, 0, 0;
+    -fx-background-radius: 0em;
+
+}
+/* The main scrollbar **track** CSS class on event of "hover" and "pressed" */
+.scroll-bar:horizontal:hover .track,
+.scroll-bar:horizontal:pressed .track{
+
+}
+/* The main scrollbar **thumb** CSS class on event of "hover" and "pressed" */
+.scroll-bar .thumb:hover,
+.scroll-bar .thumb:pressed{
+    -fx-background-color: grey;
+}
+
+.increment-button:hover ,.decrement-button:hover {
+    -fx-border-color: #026670;
+    -fx-border-width: 2;
+    -fx-background-color: #026670;
+    -fx-background-radius: 0;
+    -fx-cursor: hand;
+}
+
 
 /*******************************************************************************                                                                         *
 * TextField                                                                   *                                                            *
@@ -117,11 +188,11 @@
 /* The main scrollbar **thumb** CSS class on event of "hover" and "pressed" */
 .scroll-bar .thumb:hover,
 .scroll-bar .thumb:pressed{
-    -fx-background-color: #026670;
+    -fx-background-color: grey;
 }
 
 .increment-button:hover ,.decrement-button:hover {
-    -fx-border-color:grey;
+    -fx-border-color: grey;
     -fx-border-width: 2;
     -fx-background-color: grey;
     -fx-background-radius: 0;
@@ -1398,7 +1469,7 @@
  *                                                                             *
  * TextArea                                                                    *
  *                                                                             *
- ******************************************************************************/
+ ****************************************************************************
 
 .text-area {
     -fx-background-color: -fx-shadow-highlight-color, -fx-text-box-border, -fx-control-inner-background;

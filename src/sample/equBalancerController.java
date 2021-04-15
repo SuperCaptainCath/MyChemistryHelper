@@ -8,13 +8,14 @@ import javafx.scene.control.Button;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 
 public class equBalancerController {
 
     @FXML Button back_button;
     @FXML private TextField inEquTextField;
-    @FXML private TextField outEquTextField;
+    @FXML private TextArea outEquTextField;
     @FXML private Button balance_button;
     
     
