@@ -12,7 +12,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Text?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="700.0" minWidth="1244.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #026670;" stylesheets="@../resources/quickChemistry.css" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.converterController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="700.0" minWidth="1244.0" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #026670;" stylesheets="@../resources/quickChemistry.css" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.converterController">
    <children>
       <Text fx:id="titleText" layoutX="-3.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="title" text="Converter" textAlignment="CENTER" wrappingWidth="1245.346510588468" />
       <Text layoutX="-1.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subtitle" text="• Mass to Mole | Mole to Mass •" textAlignment="CENTER" wrappingWidth="1244.0798950195312" />
@@ -46,7 +46,7 @@
                               <Pane prefHeight="41.0" prefWidth="738.0" />
                            </children>
                         </VBox>
-                        <Button fx:id="switch_button" alignment="BOTTOM_CENTER" mnemonicParsing="false" prefHeight="108.0" prefWidth="57.0" style="-fx-background-color: 0000;" styleClass="buttonBalance">
+                        <Button fx:id="switchButton" alignment="BOTTOM_CENTER" mnemonicParsing="false" onAction="#switchMode" prefHeight="108.0" prefWidth="57.0" style="-fx-background-color: 0000;" styleClass="buttonBalance">
                            <graphic>
                               <ImageView fitHeight="39.0" fitWidth="41.0" pickOnBounds="true" preserveRatio="true">
                                  <image>
@@ -65,13 +65,13 @@
                            <children>
                               <Text fx:id="AnswerText" strokeType="OUTSIDE" strokeWidth="0.0" styleClass="subtitle" text="• Mole •" />
                               <Pane prefHeight="12.0" prefWidth="1008.0" />
-                              <TextField fx:id="AnswerField" editable="false" promptText="Mole Displays Here" styleClass="textFieldConv" />
+                              <TextField fx:id="AnswerField" editable="false" promptText="Moles Displays Here" styleClass="textFieldConv" />
                               <Pane prefHeight="41.0" prefWidth="738.0" />
                            </children>
                         </VBox>
                      </children>
                   </HBox>
-                  <Button fx:id="convertButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="96.0" prefWidth="212.0" style="-fx-background-color: 00000;" styleClass="buttonBalance">
+                  <Button fx:id="convertButton" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#convert" prefHeight="96.0" prefWidth="212.0" style="-fx-background-color: 00000;" styleClass="buttonBalance">
                      <graphic>
                         <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                            <image>

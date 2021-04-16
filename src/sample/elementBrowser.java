@@ -25,7 +25,8 @@ public class elementBrowser {
     
     static public double getMolarMass(int index){
         try{
-        File pTable = new File("table.txt");
+            
+        File pTable = new File("src/resources/table.txt");
         Scanner pTableReader = new Scanner(pTable);
         
         for(int i = 0; i < index-1; i++){
@@ -48,7 +49,7 @@ public class elementBrowser {
     
     static public String getSymbol(int index){
         try{
-        File pTable = new File("table.txt");
+        File pTable = new File("src/resources/table.txt");
         Scanner pTableReader = new Scanner(pTable);
         
         for(int i = 0; i < index-1; i++){
@@ -70,7 +71,7 @@ public class elementBrowser {
     
     static public String getName(int index){
         try{
-        File pTable = new File("table.txt");
+        File pTable = new File("src/resources/table.txt");
         Scanner pTableReader = new Scanner(pTable);
         
         for(int i = 0; i < index-1; i++){
@@ -96,7 +97,7 @@ public class elementBrowser {
     
     static public String[] displayTable(int index){
         try{
-        File pTable = new File("table.txt");
+        File pTable = new File("src/resources/table.txt");
         Scanner pTableReader = new Scanner(pTable);
         
         for(int i = 0; i < index-1; i++){

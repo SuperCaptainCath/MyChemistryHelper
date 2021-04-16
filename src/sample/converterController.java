@@ -19,6 +19,7 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
+import javafx.scene.image.ImageView;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
 
@@ -47,6 +48,8 @@ public class converterController implements Initializable {
     @ FXML Button back_button;
     
     boolean isMassToMole = true;
+    @FXML
+    private Text AnswerText;
 
     /**
      * Initializes the controller class.
@@ -56,6 +59,7 @@ public class converterController implements Initializable {
         // TODO
     }    
 
+    @FXML
     public void handleExit (ActionEvent event) {
         try {
             FXMLLoader loader = new FXMLLoader(getClass().getResource("homePage.fxml"));
@@ -72,18 +76,20 @@ public class converterController implements Initializable {
         
         
         if(isMassToMole){
-            variableField.setPromptText("ª Insert Number of Moles Here •");
-            titleText.setText("Mole to Mass Converter");
-            variableText.setText("Number of Moles to Convert");
-            switchButton.setText("Switch to mass-to-mole");
+            variableField.setPromptText("Insert Number of Moles Here");
+            AnswerField.setPromptText("Mass Displays Here");
+            variableText.setText("• Moles •");
+            AnswerText.setText("• Mass •");
+            //switchButton.setText("Switch to mass-to-mole");
             isMassToMole = false;
             
         } 
         else if(!isMassToMole){
-            variableField.setPromptText("Write mass here! (in grams)");
-            titleText.setText("Mass to Mole Converter");
-            variableText.setText("Mass to Convert");
-            switchButton.setText("Switch to mole-to-mass");
+            variableField.setPromptText("Insert Mass here");
+            AnswerField.setPromptText("Moles Displays Here");
+            variableText.setText("• Mass •");
+            AnswerText.setText("• Moles •");
+            //switchButton.setText("Switch to mole-to-mass");
             isMassToMole = true;
         }
         
