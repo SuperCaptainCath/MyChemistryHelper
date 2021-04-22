@@ -56,7 +56,7 @@ public void handleEB (ActionEvent event) {
 
 public void handleLR (ActionEvent event) {
         try {
-            FXMLLoader loader = new FXMLLoader(getClass().getResource(""));
+            FXMLLoader loader = new FXMLLoader(getClass().getResource("LReagentFXML.fxml"));
             Stage stage = (Stage) LR_button.getScene().getWindow();
             Scene scene = new Scene(loader.load());
             stage.setTitle("Quick Chemistry | Limiting Reagent Calculator");
