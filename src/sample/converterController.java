@@ -8,6 +8,7 @@ package sample;
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
 import java.net.URL;
+import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
@@ -240,8 +241,8 @@ public class converterController implements Initializable {
         }
         
         double answer = Integer.parseInt(variableField.getText()) / totalMolarMass;
-        
-        AnswerField.setText(Double.toString(answer) + " moles");
+        DecimalFormat numberFormat = new DecimalFormat("#.####");
+        AnswerField.setText(numberFormat.format(answer) + " moles");
         
         }
         
@@ -389,8 +390,8 @@ public class converterController implements Initializable {
         }
         
         double answer = Integer.parseInt(variableField.getText()) * totalMolarMass;
-        
-        AnswerField.setText(Double.toString(answer) + " grams");
+        DecimalFormat numberFormat = new DecimalFormat("#.####");
+        AnswerField.setText(numberFormat.format(answer) + " grams");
         }
         
         } catch(Exception e){
