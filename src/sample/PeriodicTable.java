@@ -21,7 +21,7 @@ public class PeriodicTable {
           ptableRef = PeriodicTable.readFile();
     }
     public static String[][] readFile (){
-        File sourceFile = new File (".\\ptable.txt");
+        File sourceFile = new File ("src/resources/ptable.txt");
         String[][] fileContent = new String[119][28];
         if(!sourceFile.exists()){
             System.out.println("Source file does not exist");

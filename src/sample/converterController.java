@@ -194,7 +194,7 @@ public class converterController implements Initializable {
        
         
         String onlySubscripts = elementString.replaceAll("[^0-9a-z]", ",");
-        onlySubscripts = onlySubscripts.replaceAll("[^1-9,]", "0");
+        onlySubscripts = onlySubscripts.replaceAll("[^1-9,]", "");
         
         ArrayList<String> TrueElements = new ArrayList<String>();
         ArrayList<String> TrueSubscripts = new ArrayList<String>();        
@@ -346,7 +346,7 @@ public class converterController implements Initializable {
        
         
         String onlySubscripts = elementString.replaceAll("[^0-9a-z]", ",");
-        onlySubscripts = onlySubscripts.replaceAll("[^1-9,]", "0");
+        onlySubscripts = onlySubscripts.replaceAll("[^1-9,]", "");
         
         ArrayList<String> TrueElements = new ArrayList<String>();
         ArrayList<String> TrueSubscripts = new ArrayList<String>();        

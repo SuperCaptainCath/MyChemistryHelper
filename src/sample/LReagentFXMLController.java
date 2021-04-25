@@ -78,16 +78,30 @@ public class LReagentFXMLController implements Initializable {
         String[] results;
         if(equalSplitMol[0].contains("+")){
             reactants = equalSplitMol[0].replaceAll("\\+", "").split("  "); 
+            for(int i = 0; i < reactants.length;i++){
+                System.out.println(reactants[i]);
+            }
         }else{
             reactants = new String[1];
             reactants[0] = equalSplitMol[0];
+            for(int i = 0; i < reactants.length;i++){
+                System.out.println(reactants[i]);
+            }
         }
         if(equalSplitMol[1].contains("+")){
             results = equalSplitMol[1].replaceAll("\\+", "").split("  "); 
+            for(int i = 0; i < results.length;i++){
+                System.out.println(results[i]);
+            }
         }else{
             results = new String[1];
             results[0] = equalSplitMol[1];
+            for(int i = 0; i < results.length;i++){
+                System.out.println(results[i]);
+            }
         }
+        
+        
     }
 
     @FXML
