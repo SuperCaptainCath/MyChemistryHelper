@@ -286,7 +286,7 @@ public class Matrix {
                             tempTerm = coefficientArray[0].charAt(j) + "";
                         }
                         else{
-                            if(!Character.isDigit(coefficientArray[0].charAt(j))){
+                            if(Character.isUpperCase(coefficientArray[0].charAt(j))){
                                 if(!Character.isDigit(tempTerm.charAt(tempTerm.length() - 1))){
                                     tempTerm = tempTerm + (Integer.parseInt(tempCoefficient) * Integer.parseInt(tempDigits)) + coefficientArray[0].charAt(j);
                                     tempDigits = "";
@@ -294,6 +294,9 @@ public class Matrix {
                                 else{
                                     tempTerm = tempTerm + coefficientArray[0].charAt(j);
                                 }
+                            }
+                            else if(Character.isLowerCase(coefficientArray[0].charAt(j))){
+                                tempTerm = tempTerm + coefficientArray[0].charAt(j);
                             }
                             else if(Character.isDigit(coefficientArray[0].charAt(j))){
                                 tempDigits = tempDigits + coefficientArray[0].charAt(j);
