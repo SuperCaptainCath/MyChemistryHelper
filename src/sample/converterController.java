@@ -77,18 +77,18 @@ public class converterController implements Initializable {
         
         
         if(isMassToMole){
-            variableField.setPromptText("Insert Number of Moles Here");
+            variableField.setPromptText("Insert Moles");
             AnswerField.setPromptText("Mass Displays Here");
             variableText.setText("• Moles •");
-            AnswerText.setText("• Mass •");
+            AnswerText.setText("• Mass (grams) •");
             //switchButton.setText("Switch to mass-to-mole");
             isMassToMole = false;
             
         } 
         else if(!isMassToMole){
-            variableField.setPromptText("Insert Mass here");
+            variableField.setPromptText("Insert Mass");
             AnswerField.setPromptText("Moles Displays Here");
-            variableText.setText("• Mass •");
+            variableText.setText("• Mass (grams) •");
             AnswerText.setText("• Moles •");
             //switchButton.setText("Switch to mole-to-mass");
             isMassToMole = true;
