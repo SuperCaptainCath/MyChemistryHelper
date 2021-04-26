@@ -12,7 +12,7 @@ import java.util.Scanner;
  *
  * @author Catherine
  */
-public class Molecule {
+/*public class Molecule {
     int moleCount;
     double actualMoleCount;
     String molecule;
@@ -92,3 +92,4 @@ public class Molecule {
     }
     
 }
+*/
