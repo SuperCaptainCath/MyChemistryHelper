@@ -46,6 +46,8 @@ public class LReagentFXMLController implements Initializable {
     private ToggleGroup computeGroup;
     @FXML
     private Button calculate_button;
+    @FXML
+    private Button check_button;
 
     /**
      * Initializes the controller class.
@@ -100,6 +102,28 @@ public class LReagentFXMLController implements Initializable {
                 System.out.println(results[i]);
             }
         }
+        boolean massMolesInputCheck = false;
+        boolean massMoleCheck;
+        
+        while(!massMolesInputCheck){
+            String rawMoles = enter_textfield.getText();
+            String[] molesList = rawMoles.replaceAll("\\ ", "").split(","); 
+            if(molesList.length !=reactants.length){
+                
+            }
+        }
+        
+        Molecule[] reactantMolecules = new Molecule[reactants.length];           //reactantMolecules created, triggers actual mole call
+        for (int i=0; i<reactantMolecules.length; i++) {
+            reactantMolecules[i]=new Molecule(reactants[i]);
+            reactantMolecules[i].setAtoms(periodicTable);
+        }
+        
+        Molecule[] resultMolecules = new Molecule[results.length];               //resultMolecules created
+        for (int i=0; i<resultMolecules.length; i++) {
+            resultMolecules[i]=new Molecule(results[i]);
+            resultMolecules[i].setAtoms(periodicTable);
+        }
         
         
     }
@@ -112,6 +136,10 @@ public class LReagentFXMLController implements Initializable {
     @FXML
     private void handleMass(ActionEvent event) {
         enter_textfield.setPromptText("Enter the actual number of masses as a list (comma seperated with no spaces) for both reactants and results.");    
+    }
+
+    @FXML
+    private void handleCheckButton(ActionEvent event) {
     }
     
 }

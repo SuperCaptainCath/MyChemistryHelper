@@ -12,8 +12,9 @@ import java.util.Scanner;
  *
  * @author Catherine
  */
-/*public class Molecule {
+public class Molecule {
     int moleCount;
+    double mass;
     double actualMoleCount;
     String molecule;
     String rawMolecule;
@@ -60,6 +61,12 @@ import java.util.Scanner;
     public double getActualMoleCount(){
         return actualMoleCount;
     }
+    public void setActualMass(double mass){
+        this.mass = mass;
+    }
+    public double getMass(){
+        return mass;
+    }
     public void setAtoms(PeriodicTable periodicTable){
         ArrayList<Atom> atomArrayList = new ArrayList<Atom>();
         ArrayList<Integer> atomIndex = new ArrayList<Integer>();
@@ -84,12 +91,11 @@ import java.util.Scanner;
         for(int i = 0; i<atomArrayList.size(); i++){
             atomsArray[i] = atomArrayList.get(i);
         }
-        System.out.println("Enter Actual Mole Count:");
-        actualMoleCount = input.nextDouble();
+//        System.out.println("Enter Actual Mole Count:");
+//        actualMoleCount = input.nextDouble();
     }
     public Atom[] getAtoms(){
         return atomsArray;
     }
     
 }
-*/
