@@ -15,6 +15,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.RadioButton;
+import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleButton;
 import javafx.scene.control.ToggleGroup;
@@ -47,8 +48,11 @@ public class LReagentFXMLController implements Initializable {
     @FXML
     private Button calculate_button;
     @FXML
-    private Button check_button;
+    private Button verify_button;
+    @FXML
+    private TextArea warning_box;
 
+    private String[] reactants;
     /**
      * Initializes the controller class.
      */
@@ -76,7 +80,6 @@ public class LReagentFXMLController implements Initializable {
         
         String inputMolecules = equation_TextField.getText() ;                                           //String Input / Split
         String[] equalSplitMol = inputMolecules.split("\\ = ", 20); 
-        String[] reactants;
         String[] results;
         if(equalSplitMol[0].contains("+")){
             reactants = equalSplitMol[0].replaceAll("\\+", "").split("  "); 
@@ -139,7 +142,13 @@ public class LReagentFXMLController implements Initializable {
     }
 
     @FXML
-    private void handleCheckButton(ActionEvent event) {
+    private void handleVerifyButton(ActionEvent event) {
+        String rawMoles = enter_textfield.getText();
+        String[] molesList = rawMoles.replaceAll("\\ ", "").split(","); 
+        if(molesList.length !=reactants.length){
+            warning_box.setVisible(true);
+            warning_box.setText("Invalid input, too many entries \nOnly list for reactants");
+        }
     }
     
 }
