@@ -193,7 +193,10 @@ public class Matrix {
         
         for(int i = 0; i < arrayOfString.length; i++){
             for(int k = 0; k < arrayOfString[i].length(); k++){
-                if (k == 0){
+                if(arrayOfString[i].length() == 1){
+                    tempCharacters = arrayOfString[i].charAt(k) + "1";
+                }
+                else if (k == 0){
                     tempCharacters = arrayOfString[i].charAt(k) + "";
                 }
                 else{
