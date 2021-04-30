@@ -52,7 +52,6 @@ public class LReagentFXMLController implements Initializable {
     @FXML
     private TextArea warning_box;
 
-    private String[] reactants;
     /**
      * Initializes the controller class.
      */
@@ -76,11 +75,21 @@ public class LReagentFXMLController implements Initializable {
 
     @FXML
     private void handleCalculateButton(ActionEvent event) {
+        warning_box.setVisible(false);
         PeriodicTable periodicTable = new PeriodicTable();
         
         String inputMolecules = equation_TextField.getText() ;                                           //String Input / Split
         String[] equalSplitMol = inputMolecules.split("\\ = ", 20); 
         String[] results;
+        String[] reactants;
+        
+        String rawMassMoles = enter_textfield.getText();
+        String[] massMolesListString = rawMassMoles.replaceAll("\\ ", "").split(","); 
+        double[]massMolesList = new double[massMolesListString.length];
+        for (int i=0; i<massMolesListString.length; i++) {
+            massMolesList[i]= Double.parseDouble(massMolesListString[i]);
+        }
+        
         if(equalSplitMol[0].contains("+")){
             reactants = equalSplitMol[0].replaceAll("\\+", "").split("  "); 
             for(int i = 0; i < reactants.length;i++){
@@ -105,28 +114,38 @@ public class LReagentFXMLController implements Initializable {
                 System.out.println(results[i]);
             }
         }
-        boolean massMolesInputCheck = false;
-        boolean massMoleCheck;
         
-        while(!massMolesInputCheck){
-            String rawMoles = enter_textfield.getText();
-            String[] molesList = rawMoles.replaceAll("\\ ", "").split(","); 
-            if(molesList.length !=reactants.length){
-                
+        if(massMolesList.length != reactants.length){
+            warning_box.setVisible(true);
+            warning_box.setText("Invalid Number\nof moles or masses.\nEnter the same\namount as reactants.");
+        }       
+        else{
+            Molecule[] reactantMolecules = new Molecule[reactants.length];           //reactantMolecules created, triggers actual mole call
+            for (int i=0; i<reactantMolecules.length; i++) {
+                reactantMolecules[i]=new Molecule(reactants[i]);
+                reactantMolecules[i].setAtoms(periodicTable);
+            }
+        
+            Molecule[] resultMolecules = new Molecule[results.length];               //resultMolecules created
+            for (int i=0; i<resultMolecules.length; i++) {
+                resultMolecules[i]=new Molecule(results[i]);
+                resultMolecules[i].setAtoms(periodicTable);
+            }
+            
+            if(mass_button.isSelected()){
+                for (int i=0; i<reactantMolecules.length; i++) {
+                    reactantMolecules[i].setActualMass(massMolesList[i]);                    
+                }
+                System.out.println("The limiting reagent is : " + reactantMolecules[Molecule.runMoles(reactantMolecules,resultMolecules)].getRawMolecule() + ".");
+            }
+            if(moles_button.isSelected()){
+                for (int i=0; i<reactantMolecules.length; i++) {
+                    reactantMolecules[i].setActualMoleCount(massMolesList[i]);
+                }
+                System.out.println("The limiting reagent is : " + reactantMolecules[Molecule.runMoles(reactantMolecules,resultMolecules)].getRawMolecule() + ".");
             }
         }
         
-        Molecule[] reactantMolecules = new Molecule[reactants.length];           //reactantMolecules created, triggers actual mole call
-        for (int i=0; i<reactantMolecules.length; i++) {
-            reactantMolecules[i]=new Molecule(reactants[i]);
-            reactantMolecules[i].setAtoms(periodicTable);
-        }
-        
-        Molecule[] resultMolecules = new Molecule[results.length];               //resultMolecules created
-        for (int i=0; i<resultMolecules.length; i++) {
-            resultMolecules[i]=new Molecule(results[i]);
-            resultMolecules[i].setAtoms(periodicTable);
-        }
         
         
     }
@@ -139,16 +158,6 @@ public class LReagentFXMLController implements Initializable {
     @FXML
     private void handleMass(ActionEvent event) {
         enter_textfield.setPromptText("Enter the actual number of masses as a list (comma seperated with no spaces) for both reactants and results.");    
-    }
-
-    @FXML
-    private void handleVerifyButton(ActionEvent event) {
-        String rawMoles = enter_textfield.getText();
-        String[] molesList = rawMoles.replaceAll("\\ ", "").split(","); 
-        if(molesList.length !=reactants.length){
-            warning_box.setVisible(true);
-            warning_box.setText("Invalid input, too many entries \nOnly list for reactants");
-        }
     }
     
 }

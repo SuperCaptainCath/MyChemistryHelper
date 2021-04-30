@@ -55,7 +55,7 @@ public class Molecule {
     public void setMoleCount(int moleCount){      
          this.moleCount = moleCount;
     }
-    public void setActualMoleCount(int actualMoleCount){
+    public void setActualMoleCount(double actualMoleCount){
         this.actualMoleCount = actualMoleCount;
     }
     public double getActualMoleCount(){
@@ -97,5 +97,26 @@ public class Molecule {
     public Atom[] getAtoms(){
         return atomsArray;
     }
-    
+    public static int runMoles(Molecule[] reactantMolecules, Molecule[] resultMolecules) {  
+        int limitingReagentIndex;
+        double[] moleRatio = new double[reactantMolecules.length];
+        for (int i = 0; i<reactantMolecules.length ; i++){
+            moleRatio[i] = reactantMolecules[i].getActualMoleCount()/reactantMolecules[i].getMoleCount();
+        }
+        double temp = moleRatio[0];
+        int tempIndex = 0;
+        for(int i = 1; i< moleRatio.length; i++){
+            if(i==0){
+                temp = moleRatio[i];
+                tempIndex = i;
+            }else{
+                if(temp < moleRatio[i]){
+                    temp = moleRatio[i];
+                    tempIndex = i;
+                }
+            }            
+        }
+        limitingReagentIndex = tempIndex;
+        return limitingReagentIndex;
+    }
 }
