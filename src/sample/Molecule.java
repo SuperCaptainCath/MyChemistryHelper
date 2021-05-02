@@ -101,17 +101,22 @@ public class Molecule {
         int limitingReagentIndex;
         double[] moleRatio = new double[reactantMolecules.length];
         for (int i = 0; i<reactantMolecules.length ; i++){
-            moleRatio[i] = reactantMolecules[i].getActualMoleCount()/ reactantMolecules[i].getMoleCount();
+            moleRatio[i] = reactantMolecules[i].getActualMoleCount()/reactantMolecules[i].getMoleCount();
         }
         double temp = moleRatio[0];
-        temp = moleRatio[0];
-        limitingReagentIndex = 0;
-        for(int i = 1; i< moleRatio.length; i++){            
-            if(temp > moleRatio[i]){
+        int tempIndex = 0;
+        for(int i = 1; i< moleRatio.length; i++){
+            if(i==0){
                 temp = moleRatio[i];
-                limitingReagentIndex = i;
-            }                       
-        }  
+                tempIndex = i;
+            }else{
+                if(temp < moleRatio[i]){
+                    temp = moleRatio[i];
+                    tempIndex = i;
+                }
+            }            
+        }
+        limitingReagentIndex = tempIndex;
         return limitingReagentIndex;
     }
 }
