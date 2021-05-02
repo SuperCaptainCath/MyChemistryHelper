@@ -60,6 +60,8 @@ public class LReagentFXMLController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
+        moles_button.setEffect(shadow);
+        moles_button.setSelected(true);        
     }    
 //2 Na2S2O3 + I2 = Na2S4O6 + 2 NaI
 //2 Fe + 3 Cl2 = 2 FeCl3
@@ -185,13 +187,17 @@ public class LReagentFXMLController implements Initializable {
                 reactantMolecules[i].setActualMass(massMolesList[i]);                    
             }
             result_textfield.setText("The limiting reagent is : " + reactantMolecules[Molecule.runMoles(reactantMolecules,resultMolecules)].getRawMolecule() + ".");
-        }
+        } else
         if(moles_button.isSelected()){
             for (int i=0; i<reactantMolecules.length; i++) {
                 reactantMolecules[i].setActualMoleCount(massMolesList[i]);
             }
             result_textfield.setText("The limiting reagent is : " + reactantMolecules[Molecule.runMoles(reactantMolecules,resultMolecules)].getRawMolecule() + ".");
-        }   
+        } else{
+            warning_box.setText("Please select\nMole or Mass.");
+            warning_box.setVisible(true);     
+            return;
+        }
     }
 
     @FXML
@@ -199,6 +205,7 @@ public class LReagentFXMLController implements Initializable {
         enter_textfield.setPromptText("Enter the actual number of moles as a list (comma seperated with no spaces) for both reactants and results.");        
         moles_button.setEffect(shadow);
         mass_button.setEffect(null);
+        moles_button.setSelected(true);
     }
 
     @FXML

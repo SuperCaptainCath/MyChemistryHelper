@@ -103,16 +103,11 @@ public class Molecule {
         }
         double temp = moleRatio[0];
         limitingReagentIndex = 0;
-        for(int i = 1; i< moleRatio.length; i++){
-            if(i==0){
+        for(int i = 1; i< moleRatio.length; i++){  
+            if(temp > moleRatio[i]){
                 temp = moleRatio[i];
                 limitingReagentIndex = i;
-            }else{
-                if(temp < moleRatio[i]){
-                    temp = moleRatio[i];
-                    limitingReagentIndex = i;
-                }
-            }            
+            }                      
         }
         return limitingReagentIndex;
     }
