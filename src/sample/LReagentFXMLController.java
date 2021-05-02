@@ -158,11 +158,11 @@ public class LReagentFXMLController implements Initializable {
         for(int i=0; i<reactantMolecules.length; i++) {
             for(int j=0; j<reactantMolecules[i].atomsArray.length; j++){
                 System.out.println(reactantMolecules[i].atomsArray[j].symbol);
-//                if(!reactantMolecules[i].atomsArray[j].warning){
-//                    warning_box.setVisible(true);
-//                    warning_box.setText("Non-existant\natom found.\nTry again.");
-//                    return;
-//                }
+                if(reactantMolecules[i].atomsArray[j].atomWarning){
+                    warning_box.setVisible(true);
+                    warning_box.setText(reactantMolecules[i].atomsArray[j].symbol +" atom not found.\nTry again.");
+                    return;
+                }
             }
         }
 
@@ -174,11 +174,11 @@ public class LReagentFXMLController implements Initializable {
         for(int i=0; i<resultMolecules.length; i++) {
             for(int j=0; j<resultMolecules[i].atomsArray.length; j++){
                 System.out.println(resultMolecules[i].atomsArray[j].symbol);
-//                if(!resultMolecules[i].atomsArray[j].warning){
-//                    warning_box.setVisible(true);
-//                    warning_box.setText("Non-existant\natom found.\nTry again.");
-//                    return;
-//                }
+                if(resultMolecules[i].atomsArray[j].atomWarning){
+                    warning_box.setVisible(true);
+                    warning_box.setText(resultMolecules[i].atomsArray[j].symbol +" atom not found.\nTry again.");
+                    return;
+                }
             }
         }
 
