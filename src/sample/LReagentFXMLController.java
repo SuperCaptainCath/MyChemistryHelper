@@ -113,7 +113,7 @@ public class LReagentFXMLController implements Initializable {
                 massMolesList[i]= Double.parseDouble(massMolesListString[i]);
             }catch(Exception e){
                 warning_box.setVisible(true);
-                warning_box.setText("Input Error in\n Mass/Moles List.\nNon-number found.\nTry Again.");
+                warning_box.setText("Input Error in\nMass/Moles List.\nNon-number found.\nTry Again.");
                 return;
             }
         }
@@ -122,27 +122,15 @@ public class LReagentFXMLController implements Initializable {
         String[] reactants;
         if(equalSplitMol[0].contains("+")){
             reactants = equalSplitMol[0].split("\\+"); 
-            for(int i = 0; i < reactants.length;i++){
-                System.out.println(reactants[i]);
-            }
         }else{
             reactants = new String[1];
             reactants[0] = equalSplitMol[0];
-            for(int i = 0; i < reactants.length;i++){
-                System.out.println(reactants[i]);
-            }
         }
         if(equalSplitMol[1].contains("+")){
             results = equalSplitMol[1].split("\\+"); 
-            for(int i = 0; i < results.length;i++){
-                System.out.println(results[i]);
-            }
         }else{
             results = new String[1];
             results[0] = equalSplitMol[1];
-            for(int i = 0; i < results.length;i++){
-                System.out.println(results[i]);
-            }
         }
         
         if(massMolesList.length != reactants.length){
@@ -157,7 +145,6 @@ public class LReagentFXMLController implements Initializable {
         }
         for(int i=0; i<reactantMolecules.length; i++) {
             for(int j=0; j<reactantMolecules[i].atomsArray.length; j++){
-                System.out.println(reactantMolecules[i].atomsArray[j].symbol);
                 if(reactantMolecules[i].atomsArray[j].atomWarning){
                     warning_box.setVisible(true);
                     warning_box.setText(reactantMolecules[i].atomsArray[j].symbol +" atom not found.\nTry again.");
@@ -173,7 +160,6 @@ public class LReagentFXMLController implements Initializable {
         }
         for(int i=0; i<resultMolecules.length; i++) {
             for(int j=0; j<resultMolecules[i].atomsArray.length; j++){
-                System.out.println(resultMolecules[i].atomsArray[j].symbol);
                 if(resultMolecules[i].atomsArray[j].atomWarning){
                     warning_box.setVisible(true);
                     warning_box.setText(resultMolecules[i].atomsArray[j].symbol +" atom not found.\nTry again.");
@@ -183,9 +169,7 @@ public class LReagentFXMLController implements Initializable {
         }
 
         if(mass_button.isSelected()){
-            for (int i=0; i<reactantMolecules.length; i++) {
-                reactantMolecules[i].setActualMass(massMolesList[i]);                    
-            }
+            Molecule.runMass(reactantMolecules, massMolesList);    //sets all actualMass and actualMoleCount
             result_textfield.setText("The limiting reagent is : " + reactantMolecules[Molecule.runMoles(reactantMolecules,resultMolecules)].getRawMolecule() + ".");
         } else
         if(moles_button.isSelected()){

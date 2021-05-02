@@ -43,13 +43,20 @@ public class Molecule {
     public int getMoleCount(){
         return moleCount;
     }   
-    public void setMoleCount(){        
-        if(Character.isDigit(molecule.charAt(0))){
-            moleCount = Integer.parseInt(molecule.substring(0,1));  
-            rawMolecule = molecule.substring(1);
-        }else{
+    public void setMoleCount(){   
+        int digitCheckIndex=0;
+        if(!Character.isDigit(molecule.charAt(0))){
             moleCount = 1;
             rawMolecule = molecule;
+        }else{
+            for (int i = 0; i<molecule.length(); i++){
+                if(!Character.isDigit(molecule.charAt(i))){
+                    moleCount = Integer.parseInt(molecule.substring(0,i));  
+                    rawMolecule = molecule.substring(i);
+                    System.out.println("rawMolecule:" +rawMolecule);
+                    break;
+                }
+            }
         }
     }
     public void setMoleCount(int moleCount){      
@@ -110,5 +117,18 @@ public class Molecule {
             }                      
         }
         return limitingReagentIndex;
+    }
+    public static void runMass(Molecule[] reactantMolecules, double[] massMolesList) {  
+        double molarMass = 0;
+        
+        for(int i=0; i<reactantMolecules.length; i++) {
+            reactantMolecules[i].setActualMass(massMolesList[i]);
+            molarMass=0;
+            for(int j=0; j<reactantMolecules[i].atomsArray.length; j++){
+                molarMass += reactantMolecules[i].atomsArray[j].atomicMass *reactantMolecules[i].atomsArray[j].atomCount;
+            }
+            System.out.println(reactantMolecules[i].rawMolecule+" "+ molarMass);
+            reactantMolecules[i].setActualMoleCount(massMolesList[i]/molarMass);
+        }    
     }
 }
