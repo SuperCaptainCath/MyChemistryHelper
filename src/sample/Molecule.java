@@ -91,8 +91,6 @@ public class Molecule {
         for(int i = 0; i<atomArrayList.size(); i++){
             atomsArray[i] = atomArrayList.get(i);
         }
-//        System.out.println("Enter Actual Mole Count:");
-//        actualMoleCount = input.nextDouble();
     }
     public Atom[] getAtoms(){
         return atomsArray;
@@ -104,19 +102,18 @@ public class Molecule {
             moleRatio[i] = reactantMolecules[i].getActualMoleCount()/reactantMolecules[i].getMoleCount();
         }
         double temp = moleRatio[0];
-        int tempIndex = 0;
+        limitingReagentIndex = 0;
         for(int i = 1; i< moleRatio.length; i++){
             if(i==0){
                 temp = moleRatio[i];
-                tempIndex = i;
+                limitingReagentIndex = i;
             }else{
                 if(temp < moleRatio[i]){
                     temp = moleRatio[i];
-                    tempIndex = i;
+                    limitingReagentIndex = i;
                 }
             }            
         }
-        limitingReagentIndex = tempIndex;
         return limitingReagentIndex;
     }
 }
