@@ -49,9 +49,9 @@
         </rowConstraints>
          <children>
                   <TextField fx:id="equation_TextField" prefHeight="45.0" prefWidth="603.0" promptText="Equation" styleClass="textFieldEquation" GridPane.columnSpan="2" />
-            <ToggleButton fx:id="moles_button" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleMoles" prefHeight="72.0" prefWidth="124.0" selected="true" style="-fx-background-color: transparent;" styleClass="buttonHome" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <ToggleButton fx:id="moles_button" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleMoles" prefHeight="72.0" prefWidth="130.0" selected="true" style="-fx-background-color: transparent;" styleClass="buttonHome" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                 <graphic>
-                        <ImageView fitHeight="64.0" fitWidth="131.0" pickOnBounds="true" preserveRatio="true" styleClass="buttonBalance">
+                        <ImageView fitHeight="64.0" fitWidth="113.0" pickOnBounds="true" preserveRatio="true" styleClass="buttonBalance">
                            <image>
                               <Image url="@../resources/moles_button.png" />
                            </image>
