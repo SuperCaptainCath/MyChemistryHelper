@@ -49,9 +49,9 @@
         </rowConstraints>
          <children>
                   <TextField fx:id="equation_TextField" prefHeight="45.0" prefWidth="603.0" promptText="Equation" styleClass="textFieldEquation" GridPane.columnSpan="2" />
-            <ToggleButton fx:id="moles_button" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleMoles" selected="true" style="-fx-background-color: transparent;" styleClass="buttonHome" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <ToggleButton fx:id="moles_button" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleMoles" prefHeight="72.0" prefWidth="124.0" selected="true" style="-fx-background-color: transparent;" styleClass="buttonHome" GridPane.halignment="CENTER" GridPane.rowIndex="1">
                 <graphic>
-                        <ImageView fitHeight="64.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true" styleClass="buttonBalance">
+                        <ImageView fitHeight="64.0" fitWidth="131.0" pickOnBounds="true" preserveRatio="true" styleClass="buttonBalance">
                            <image>
                               <Image url="@../resources/moles_button.png" />
                            </image>
@@ -65,11 +65,11 @@
                </toggleGroup>
                      </ToggleButton>
                   <TextField fx:id="enter_textfield" prefHeight="45.0" prefWidth="605.0" promptText="Enter moles or mass list" styleClass="textFieldEquation" GridPane.columnSpan="2" GridPane.rowIndex="2" />
-                  <Button fx:id="calculate_button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleCalculateButton" prefHeight="69.0" prefWidth="155.0" style="-fx-background-color: transparent;" styleClass="buttonHome" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
+                  <Button fx:id="calculate_button" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#handleCalculateButton" prefHeight="63.0" prefWidth="174.0" style="-fx-background-color: transparent;" styleClass="buttonHome" GridPane.columnSpan="2" GridPane.halignment="CENTER" GridPane.rowIndex="3" GridPane.valignment="CENTER">
                      <graphic>
                         <ImageView fitHeight="64.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true" styleClass="buttonBalance">
                            <image>
-                              <Image url="@../resources/balance_button.png" />
+                              <Image url="@../resources/calculate_button.png" />
                            </image>
                   </ImageView>
                      </graphic>
@@ -78,9 +78,9 @@
                      </cursor>
                   </Button>
                   <TextField fx:id="result_textfield" editable="false" prefHeight="24.0" prefWidth="327.0" promptText="Result will appear here" styleClass="textFieldEquation" GridPane.columnSpan="2" GridPane.rowIndex="4" />
-            <ToggleButton fx:id="mass_button" mnemonicParsing="false" onAction="#handleMass" style="-fx-background-color: transparent;" styleClass="buttonHome" toggleGroup="$computeGroup" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
+            <ToggleButton fx:id="mass_button" mnemonicParsing="false" onAction="#handleMass" prefHeight="72.0" prefWidth="109.0" style="-fx-background-color: transparent;" styleClass="buttonHome" toggleGroup="$computeGroup" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="1">
             <graphic>
-                        <ImageView fitHeight="64.0" fitWidth="172.0" pickOnBounds="true" preserveRatio="true" styleClass="buttonBalance">
+                        <ImageView fitHeight="64.0" fitWidth="133.0" pickOnBounds="true" preserveRatio="true" styleClass="buttonBalance">
                            <image>
                               <Image url="@../resources/mass_button.png" />
                            </image>
@@ -100,13 +100,13 @@
                </font></TextArea>
          </children>
       </Pane>
-      <ScrollPane hbarPolicy="NEVER" layoutX="62.0" layoutY="162.0" prefHeight="452.0" prefWidth="300.0" vbarPolicy="ALWAYS">
+      <ScrollPane hbarPolicy="NEVER" layoutX="62.0" layoutY="165.0" prefHeight="452.0" prefWidth="300.0" vbarPolicy="ALWAYS">
         <content>
-          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="749.0" prefWidth="280.0">
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="1479.0" prefWidth="296.0">
                <children>
-                    <ImageView fitHeight="749.0" fitWidth="285.0" pickOnBounds="true" preserveRatio="true"> 
+                    <ImageView fitHeight="1479.0" fitWidth="296.0" pickOnBounds="true" preserveRatio="true"> 
                         <image>
-                            <Image url="@../resources/EB_instr.png" />
+                            <Image url="@../resources/LR_instructions.png" />
                         </image>
                     </ImageView>
                </children>

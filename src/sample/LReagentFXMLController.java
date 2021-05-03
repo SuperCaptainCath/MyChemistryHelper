@@ -14,7 +14,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
-import javafx.scene.control.RadioButton;
 import javafx.scene.control.TextArea;
 import javafx.scene.control.TextField;
 import javafx.scene.control.ToggleButton;
@@ -84,6 +83,7 @@ public class LReagentFXMLController implements Initializable {
     @FXML
     private void handleCalculateButton(ActionEvent event) {
         warning_box.setVisible(false);
+        result_textfield.setText("");
         PeriodicTable periodicTable = new PeriodicTable();
         
         //String equation Input
@@ -188,7 +188,7 @@ public class LReagentFXMLController implements Initializable {
 
     @FXML
     private void handleMoles(ActionEvent event) {
-        enter_textfield.setPromptText("Actual number of moles (in grams) as a comma-seperated list.");        
+        enter_textfield.setPromptText("Actual number of moles as a comma-seperated list.");        
         moles_button.setEffect(shadow);
         mass_button.setEffect(null);
         moles_button.setSelected(true);
@@ -196,7 +196,7 @@ public class LReagentFXMLController implements Initializable {
 
     @FXML
     private void handleMass(ActionEvent event) {
-        enter_textfield.setPromptText("Actual masses as a comma-seperated list.");    
+        enter_textfield.setPromptText("Actual masses (in grams) as a comma-seperated list.");    
         moles_button.setEffect(null);
         mass_button.setEffect(shadow);
     }

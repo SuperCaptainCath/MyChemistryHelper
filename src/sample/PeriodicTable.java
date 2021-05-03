@@ -6,8 +6,6 @@
 package sample;
 
 import java.io.File;
-import java.io.PrintWriter;
-import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -31,7 +29,7 @@ public class PeriodicTable {
             Scanner fileScanner = new Scanner(sourceFile);
         ){  
             int i = 0;
-            while(fileScanner.hasNext()){    
+            while(fileScanner.hasNext()){                       //Loop to transfer to matrix
                 String s1 = fileScanner.nextLine();                    
                 String[] temp = s1.split(",");
                 for(int j = 0; j<temp.length;j++){
